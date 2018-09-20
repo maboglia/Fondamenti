@@ -89,27 +89,30 @@ esprimibili mediante istruzioni comprensibili da un elaboratore,
 
 ## Algoritmi e Programmi
 
-Se l'esecutore e` un elaboratore elettronico:
+Se l'esecutore è un elaboratore elettronico:
+
 * È necessario conoscere l'insieme di istruzioni che è in grado di interpretare
 * È necessario conoscere quali tipi di informazioni (dati) è in grado di rappresentare
 * È necessario conoscere le caratteristiche del linguaggio di programmazione scelto
 
-
 Dato un problema P, la sua soluzione può essere ottenuta mediante l’uso del calcolatore, compiendo i seguenti passi:
+
 * individuazione di un metodo risolutivo
 * scomposizione del procedimento in insieme ordinato di azioni: algoritmo
 * rappresentazione dei dati e dell'algoritmo attraverso un linguaggio di programmazione comprensibile per l’elaboratore: programma
 
-Si ottiene cosi` il PROGRAMMA, che potrà essere eseguito dall'elaboratore per risolvere automaticamente ogni istanza del problema P.
+Si ottiene così il PROGRAMMA, che potrà essere eseguito dall'elaboratore per risolvere automaticamente ogni istanza del problema P.
 
 ## Algoritmi equivalenti
 
 Due algoritmi si dicono equivalenti quando:
+
 * hanno lo stesso dominio dei dati (dominio di ingresso);
 * hanno lo stesso dominio dei risultati (dominio di uscita);
 * in corrispondenza degli stessi valori nel dominio di ingresso producono gli stessi valori nel dominio di uscita
 
 Due algoritmi equivalenti:
+
 * forniscono lo stesso risultato
 * possono essere profondamente diversi
 * possono avere differente efficienza
@@ -124,9 +127,8 @@ Due algoritmi equivalenti:
 * un diagramma di flusso appare, quindi, come un insieme di blocchi, collegati fra loro da linee orientate che specificano la sequenza in cui i blocchi * devono essere eseguiti: flusso del controllo di esecuzione.
 
 ## Oggetti grafici per rappresentare algoritmi
-![diagrammi flusso](diagrammi_flusso1.jpg)
 
-![strutture_controllo](strutture_controllo.gif)
+![diagrammi flusso](diagrammi_flusso1.jpg)
 
 ## Quanti Linguaggi...
 
@@ -138,13 +140,13 @@ Due algoritmi equivalenti:
 
 Un paradigma di programmazione è uno stile fondamentale di programmazione utile per portare ordine e criteri di lavoro più efficienti nella produzione dei programmi 
 
-### programmazione procedurale
+## programmazione procedurale
 
 * In informatica la programmazione procedurale è un paradigma di programmazione che consiste nel creare dei blocchi di codice sorgente, identificati da un nome e racchiusi da dei delimitatori, che variano a seconda del linguaggio di programmazione; 
-questi sono detti anche sottoprogrammi (in inglese subroutine) procedure o funzioni, a seconda del linguaggio e dei loro ruoli all'interno del linguaggio stesso. 
+* questi sono detti anche sottoprogrammi (in inglese subroutine) procedure o funzioni, a seconda del linguaggio e dei loro ruoli all'interno del linguaggio stesso.
 * Il nome deriva dal linguaggio COBOL, che è stato il primo ad utilizzare questo concetto.
 
-### programmazione imperativa
+## programmazione imperativa
 
 * In informatica, la programmazione imperativa è un paradigma di programmazione secondo cui un programma viene inteso come un insieme di istruzioni (dette anche direttive o comandi), ciascuna delle quali può essere pensata come un "ordine" che viene impartito alla macchina virtuale del linguaggio di programmazione utilizzato. 
 * Da un punto di vista sintattico, i costrutti di un linguaggio imperativo sono spesso identificati da verbi all'imperativo, per esempio:
@@ -163,10 +165,11 @@ questi sono detti anche sottoprogrammi (in inglese subroutine) procedure o funzi
 
 ## Teorema di Jacopini-Bohm (1966)
 
-Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre strutture di controllo: 
-* sequenza, 
-* selezione 
-* e iterazione. 
+Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre strutture di controllo:
+
+* sequenza, selezione e iterazione.
+
+![strutture_controllo](strutture_controllo.gif)
 
 ## La programmazione funzionale
 
@@ -192,7 +195,7 @@ var funzioneMemoizzata = memoize(funzioneConCalcoliPesanti);
 
 ## Programmazione ad oggetti
 
-Procedurale vs OOP
+**Procedurale vs OOP**
 
 * Nella programmazione procedurale, il codice è centrale e i dati sono subordinati. In altre parole, abbiamo programmi che agiscono sui dati che di solito non sono strettamente collegati.
 
@@ -203,16 +206,16 @@ Procedurale vs OOP
 ```java
 n = n * 2
 ```
-#### Il codice moltiplica n per 2 e registra il risultato in n.
 
-### Nella programmmazione orientata agli oggetti, si invia un "messaggio" all'oggetto chiamando un metodo per raddoppiare:
+**Il codice moltiplica n per 2 e registra il risultato in n.**
+
+Nella programmmazione orientata agli oggetti, si invia un "messaggio" all'oggetto chiamando un metodo per raddoppiare:
 
 ```java
 n.double();
 ```
-### Il vantaggio di questa tecnica è definito polimorfismo. Se il programma richiede di replicare la procedura su un  oggetto di tipo string come "bob", nel modoprocedurale occorre invocareuna nuova funzione con un codice e un nome differente.
 
-### Con la OOP, puoi creare un oggetto di tipo stringa che accetta la chiamata al metodo double(), ma lo implementa in maniera differente. 
+Con la OOP, puoi creare un oggetto di tipo stringa che accetta la chiamata al metodo double(), ma lo implementa in maniera differente. 
 
 ```java
 class Operazioni{
@@ -228,4 +231,8 @@ class Operazioni{
 
 }
 ```
+
+Il vantaggio di questa tecnica è definito polimorfismo. 
+Se il programma richiede di replicare la procedura su un oggetto di tipo string come "bob", nel modo procedurale occorre invocareuna nuova funzione con un codice e un nome differente.
+
 [vai alla sezione programmazione a oggetti](OOP.md)
