@@ -1,4 +1,4 @@
-# ProgrammingFoundations
+# fondamenti di programmazione
 
 
 ### Nella programmazione procedurale, il codice è centrale e i dati sono subordinati. In altre parole, abbiamo programmi che agiscono sui dati che di solito non sono strettamente collegati.
