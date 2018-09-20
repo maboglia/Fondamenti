@@ -1,5 +1,27 @@
 # fondamenti di programmazione
 
+## Analisi e programmazione
+
+* Tramite un elaboratore si possono risolvere problemi di varia natura
+* Il problema deve essere formulato in modo opportuno, perché sia possibile utilizzare un elaboratore per la sua soluzione
+* L’analisi e programmazione è l’insieme delle attività preliminari atte a risolvere problemi utilizzando un elaboratore
+* Scopo dell’analisi: definire un algoritmo
+* Scopo della programmazione: definire un programma
+
+
+## Le fasi del procedimento
+
+* Input Dati
+	* Problema
+	* Analisi
+	* Algoritmo
+	* Scelta linguaggio
+	* Programma
+	* Elaborazione
+	* Risultati
+* Output Dati
+  
+![a cosa servono](a_cosa_servono.png)
 
 ### Nella programmazione procedurale, il codice è centrale e i dati sono subordinati. In altre parole, abbiamo programmi che agiscono sui dati che di solito non sono strettamente collegati.
 
