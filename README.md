@@ -25,7 +25,7 @@
 
 A cosa servono?
 
-![a cosa servono](a_cosa_servono.png)
+![a cosa servono](img/a_cosa_servono.png)
 
 ## I Problemi da risolvere
 
@@ -75,7 +75,7 @@ esprimibili mediante istruzioni comprensibili da un elaboratore,
 * Deterministico
 * Completo
 
-![algoritmo](algoritmo.png)
+![algoritmo](img/algoritmo.png)
 
 ## Proprietà degli algoritmi 2
 
@@ -119,7 +119,7 @@ Due algoritmi equivalenti:
 
 ## Rappresentare algoritmi
 
-![diagramma_flusso](diagramma_flusso.png)
+![diagramma_flusso](img/diagramma_flusso.png)
 
 * un diagramma di flusso descrive le azioni da eseguire ed il loro ordine di esecuzione.
 * ad ogni tipo di azione corrisponde ad un simbolo grafico (blocco) diverso.
@@ -128,15 +128,15 @@ Due algoritmi equivalenti:
 
 ## Oggetti grafici per rappresentare algoritmi
 
-![diagrammi flusso](diagrammi_flusso1.jpg)
+![diagrammi flusso](img/diagrammi_flusso1.jpg)
 
 ## Quanti Linguaggi...
 
-![linguaggi](linguaggi.jpg)
+![linguaggi](img/linguaggi.jpg)
 
 ## … e quanti paradigmi di prgrammazione
 
-![paradigmi](paradigmi.jpg)
+![paradigmi](img/paradigmi.jpg)
 
 Un paradigma di programmazione è uno stile fondamentale di programmazione utile per portare ordine e criteri di lavoro più efficienti nella produzione dei programmi 
 
@@ -169,7 +169,7 @@ Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre st
 
 * sequenza, selezione e iterazione.
 
-![strutture_controllo](strutture_controllo.gif)
+![strutture_controllo](img/strutture_controllo.gif)
 
 ## La programmazione funzionale
 

@@ -46,7 +46,7 @@ La classe consente di implementare gli ADT attraverso il meccanismo di incapsula
     * un metodo della classe A invia messaggi agli oggetti della classe B , oppure
     * un metodo della classe A crea, restituisce, riceve oggetti della classe B .
 
-![uso](001_uso.png)
+![uso](img/001_uso.png)
 
 ### Aggregazione
 
@@ -54,7 +54,7 @@ La classe consente di implementare gli ADT attraverso il meccanismo di incapsula
 * è un caso speciale della relazione di uso
 * relazione has-a (ha-un)
 
-![aggregazione](002_aggregazione.png)
+![aggregazione](img/002_aggregazione.png)
 
 ### Ereditarietà
 
@@ -63,7 +63,7 @@ La classe consente di implementare gli ADT attraverso il meccanismo di incapsula
 * classe base o superclasse
 * relazione is-a (è-un)
 
-![ereditarieta](003_ereditarieta.png)
+![ereditarieta](img/003_ereditarieta.png)
 
 #### si ottiene il riuso del codice
 
