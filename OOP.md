@@ -26,7 +26,7 @@
     * consentono di leggere/scrivere gli attributi di un oggetto;
 
 
-**La descrizione di una classe**
+## La descrizione di una classe
 La classe rappresenta la descrizione di un oggetto, contiene le definizioni di proprietà e metodi dell'oggetto che rappresenta.
 La classe consente di implementare gli ADT attraverso il meccanismo di incapsulamento.
 
