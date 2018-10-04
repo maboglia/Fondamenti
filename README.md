@@ -12,10 +12,10 @@
 ## Le fasi del procedimento
 
 * Input Dati
-	* Problema
+	* [Problema](001_ProblemiInformatici.md)
 	* Analisi
-	* Algoritmo
-	* Scelta linguaggio
+	* [Algoritmo](002_Algoritmi.md)
+	* [Scelta linguaggio](003_ParadigmiLinguaggi.md)
 	* Programma
 	* Elaborazione
 	* Risultati
@@ -27,7 +27,6 @@ A cosa servono?
 
 ![a cosa servono](img/a_cosa_servono.png)
 
-[problemi informatici](001_ProblemiInformatici.md)
 
 ## Ricapitolando
 
@@ -40,5 +39,8 @@ A cosa servono?
 	* *ricetta* che traduce l’algoritmo ed è direttamente comprensibile e quindi eseguibile da parte di un elaboratore
 
 
+[problemi informatici](001_ProblemiInformatici.md)
+
 [algoritmi](002_Algoritmi.md)
 
+[Paradigmi e  linguaggi](003_ParadigmiLinguaggi.md)
