@@ -37,16 +37,20 @@ A cosa servono?
 	* per il problema non è stato trovato un metodo risolutivo.
 	* è stato dimostrato che non esiste un metodo risolutivo automatizzabile
 
-## La risoluzione di un problema
+### La risoluzione di un problema
 
-* È il processo che  dato un problema ed individuato un metodo risolutivo:
-* trasforma i dati iniziali nei corrispondenti risultati finali.
+* È il processo che 
+	* dato un problema ed 
+	* individuato un metodo risolutivo
+	* trasforma i dati iniziali nei corrispondenti risultati finali
 
-* Se tale processo può essere definito come  un insieme ordinato di azioni elementari, 
-esprimibili mediante istruzioni comprensibili da un elaboratore, 
-* allora esso  può essere svolto da un elaboratore.
+* Tale processo
+	* può essere definito come un insieme ordinato di azioni elementari?
+	* si tratta di istruzioni comprensibili da un elaboratore? 
+	* allora esso può essere svolto da un elaboratore
 
-## Quali problemi possiamo risolvere
+### Per esempio
+
 * Emissione di certificati e report
 * Gestione dei c/c di un istituto di credito
 * Prenotazioni su internet
@@ -60,10 +64,14 @@ esprimibili mediante istruzioni comprensibili da un elaboratore,
 * ...
 
 ## Ricapitolando
-* Algoritmo: elenco finito di istruzioni, che specificano le operazioni eseguendo le quali si risolve un problema
+
+* **Algoritmo**: 
+	* elenco finito di istruzioni, che specificano le operazioni eseguendo le quali si risolve un problema
 	* Un algoritmo non può essere eseguito direttamente dall’elaboratore
-* Linguaggio di programmazione: linguaggio rigoroso che permette la formalizzazione di un algoritmo in un programma
-* Programma: ricetta che traduce l’algoritmo ed è direttamente comprensibile e quindi eseguibile da parte di un elaboratore
+* **Linguaggio di programmazione**: 
+	* linguaggio rigoroso che permette la formalizzazione di un algoritmo in un programma
+* **Programma**: 
+	* *ricetta* che traduce l’algoritmo ed è direttamente comprensibile e quindi eseguibile da parte di un elaboratore
 
 ## Proprietà degli algoritmi
 
