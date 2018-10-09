@@ -1,6 +1,6 @@
 # JSON
 
-[JSON_ref](img/JSON_ref.png)
+![JSON_ref](img/JSON_ref.png)
 
 ## Oggetti JS e JSON
 
