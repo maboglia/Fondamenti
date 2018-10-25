@@ -1,0 +1,111 @@
+Codice ripartizione;Ripartizione geografica;Codice regione;Denominazione regione;Codice provincia;Denominazione provincia;Sigla automobilistica
+1;Nord-ovest;01;Piemonte;001;Torino;TO
+1;Nord-ovest;01;Piemonte;002;Vercelli;VC
+1;Nord-ovest;01;Piemonte;003;Novara;NO
+1;Nord-ovest;01;Piemonte;004;Cuneo;CN
+1;Nord-ovest;01;Piemonte;005;Asti;AT
+1;Nord-ovest;01;Piemonte;006;Alessandria;AL
+1;Nord-ovest;01;Piemonte;096;Biella;BI
+1;Nord-ovest;01;Piemonte;103;Verbano-Cusio-Ossola;VB
+1;Nord-ovest;02;Valle d'Aosta/VallÇe d'Aoste;007;Valle d'Aosta/VallÇe d'Aoste;AO
+1;Nord-ovest;03;Lombardia;012;Varese;VA
+1;Nord-ovest;03;Lombardia;013;Como;CO
+1;Nord-ovest;03;Lombardia;014;Sondrio;SO
+1;Nord-ovest;03;Lombardia;015;Milano;MI
+1;Nord-ovest;03;Lombardia;016;Bergamo;BG
+1;Nord-ovest;03;Lombardia;017;Brescia;BS
+1;Nord-ovest;03;Lombardia;018;Pavia;PV
+1;Nord-ovest;03;Lombardia;019;Cremona;CR
+1;Nord-ovest;03;Lombardia;020;Mantova;MN
+1;Nord-ovest;03;Lombardia;097;Lecco;LC
+1;Nord-ovest;03;Lombardia;098;Lodi;LO
+1;Nord-ovest;03;Lombardia;108;Monza e della Brianza;MB
+2;Nord-est;04;Trentino-Alto Adige/SÅdtirol;021;Bolzano/Bozen;BZ
+2;Nord-est;04;Trentino-Alto Adige/SÅdtirol;022;Trento;TN
+2;Nord-est;05;Veneto;023;Verona;VR
+2;Nord-est;05;Veneto;024;Vicenza;VI
+2;Nord-est;05;Veneto;025;Belluno;BL
+2;Nord-est;05;Veneto;026;Treviso;TV
+2;Nord-est;05;Veneto;027;Venezia;VE
+2;Nord-est;05;Veneto;028;Padova;PD
+2;Nord-est;05;Veneto;029;Rovigo;RO
+2;Nord-est;06;Friuli-Venezia Giulia;030;Udine;UD
+2;Nord-est;06;Friuli-Venezia Giulia;031;Gorizia;GO
+2;Nord-est;06;Friuli-Venezia Giulia;032;Trieste;TS
+2;Nord-est;06;Friuli-Venezia Giulia;093;Pordenone;PN
+1;Nord-ovest;07;Liguria;008;Imperia;IM
+1;Nord-ovest;07;Liguria;009;Savona;SV
+1;Nord-ovest;07;Liguria;010;Genova;GE
+1;Nord-ovest;07;Liguria;011;La Spezia;SP
+2;Nord-est;08;Emilia-Romagna;033;Piacenza;PC
+2;Nord-est;08;Emilia-Romagna;034;Parma;PR
+2;Nord-est;08;Emilia-Romagna;035;Reggio nell'Emilia;RE
+2;Nord-est;08;Emilia-Romagna;036;Modena;MO
+2;Nord-est;08;Emilia-Romagna;037;Bologna;BO
+2;Nord-est;08;Emilia-Romagna;038;Ferrara;FE
+2;Nord-est;08;Emilia-Romagna;039;Ravenna;RA
+2;Nord-est;08;Emilia-Romagna;040;Forlç-Cesena;FC
+2;Nord-est;08;Emilia-Romagna;099;Rimini;RN
+3;Centro;09;Toscana;045;Massa-Carrara;MS
+3;Centro;09;Toscana;046;Lucca;LU
+3;Centro;09;Toscana;047;Pistoia;PT
+3;Centro;09;Toscana;048;Firenze;FI
+3;Centro;09;Toscana;049;Livorno;LI
+3;Centro;09;Toscana;050;Pisa;PI
+3;Centro;09;Toscana;051;Arezzo;AR
+3;Centro;09;Toscana;052;Siena;SI
+3;Centro;09;Toscana;053;Grosseto;GR
+3;Centro;09;Toscana;100;Prato;PO
+3;Centro;10;Umbria;054;Perugia;PG
+3;Centro;10;Umbria;055;Terni;TR
+3;Centro;11;Marche;041;Pesaro e Urbino;PU
+3;Centro;11;Marche;042;Ancona;AN
+3;Centro;11;Marche;043;Macerata;MC
+3;Centro;11;Marche;044;Ascoli Piceno;AP
+3;Centro;11;Marche;109;Fermo;FM
+3;Centro;12;Lazio;056;Viterbo;VT
+3;Centro;12;Lazio;057;Rieti;RI
+3;Centro;12;Lazio;058;Roma;RM
+3;Centro;12;Lazio;059;Latina;LT
+3;Centro;12;Lazio;060;Frosinone;FR
+4;Sud;13;Abruzzo;066;L'Aquila;AQ
+4;Sud;13;Abruzzo;067;Teramo;TE
+4;Sud;13;Abruzzo;068;Pescara;PE
+4;Sud;13;Abruzzo;069;Chieti;CH
+4;Sud;14;Molise;070;Campobasso;CB
+4;Sud;14;Molise;094;Isernia;IS
+4;Sud;15;Campania;061;Caserta;CE
+4;Sud;15;Campania;062;Benevento;BN
+4;Sud;15;Campania;063;Napoli;NA
+4;Sud;15;Campania;064;Avellino;AV
+4;Sud;15;Campania;065;Salerno;SA
+4;Sud;16;Puglia;071;Foggia;FG
+4;Sud;16;Puglia;072;Bari;BA
+4;Sud;16;Puglia;073;Taranto;TA
+4;Sud;16;Puglia;074;Brindisi;BR
+4;Sud;16;Puglia;075;Lecce;LE
+4;Sud;16;Puglia;110;Barletta-Andria-Trani;BT
+4;Sud;17;Basilicata;076;Potenza;PZ
+4;Sud;17;Basilicata;077;Matera;MT
+4;Sud;18;Calabria;078;Cosenza;CS
+4;Sud;18;Calabria;079;Catanzaro;CZ
+4;Sud;18;Calabria;080;Reggio di Calabria;RC
+4;Sud;18;Calabria;101;Crotone;KR
+4;Sud;18;Calabria;102;Vibo Valentia;VV
+5;Isole;19;Sicilia;081;Trapani;TP
+5;Isole;19;Sicilia;082;Palermo;PA
+5;Isole;19;Sicilia;083;Messina;ME
+5;Isole;19;Sicilia;084;Agrigento;AG
+5;Isole;19;Sicilia;085;Caltanissetta;CL
+5;Isole;19;Sicilia;086;Enna;EN
+5;Isole;19;Sicilia;087;Catania;CT
+5;Isole;19;Sicilia;088;Ragusa;RG
+5;Isole;19;Sicilia;089;Siracusa;SR
+5;Isole;20;Sardegna;090;Sassari;SS
+5;Isole;20;Sardegna;091;Nuoro;NU
+5;Isole;20;Sardegna;092;Cagliari;CA
+5;Isole;20;Sardegna;095;Oristano;OR
+5;Isole;20;Sardegna;104;Olbia-Tempio;OT
+5;Isole;20;Sardegna;105;Ogliastra;OG
+5;Isole;20;Sardegna;106;Medio Campidano;VS
+5;Isole;20;Sardegna;107;Carbonia-Iglesias;CI
