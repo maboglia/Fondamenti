@@ -7,16 +7,16 @@ Metacaratteri delle espressioni regolari
 * Caratteri jolly
 
     * . 	Corrisponde a: qualsiasi carattere singolo (lettera, numero o simbolo) 	
-        * 1. corrisponde a: 10, 1A
+        * \1. corrisponde a: 10, 1A
         * 1.1 corrisponde a: 111, 1A1
 
     * ? 	Corrisponde a: 0 o 1 volte/a il carattere che lo precede 	
     * 10? corrisponde a: 1, 10
 
-        * + 	Corrisponde a: 1 o più volte il carattere che lo precede 	
+        * \+ 	Corrisponde a: 1 o più volte il carattere che lo precede 	
         * 10+ corrisponde a: 10, 100
 
-        * * Corrisponde a: 0 o più volte il carattere che lo precede 	
+        * \* Corrisponde a: 0 o più volte il carattere che lo precede 	
         * 1* corrisponde a: 1, 10
 
 * | 	Crea una corrispondenza O
@@ -24,28 +24,23 @@ Metacaratteri delle espressioni regolari
     * 1|10 corrisponde a: 1, 10
 
 * Anchor
-    * ^ 	Corrisponde ai: caratteri adiacenti all'inizio di una stringa 	
+    * ^ Corrisponde ai: caratteri adiacenti all'inizio di una stringa 	
     * ^10 corrisponde a: 10, 100, 10x
 
-    ^10 non corrisponde a: 110, 110x
-
-        * $ 	Corrisponde ai: caratteri adiacenti alla fine di una stringa 	10$ corrisponde a: 110, 1010
-
-    10$ non corrisponde a: 100, 10x
+    * ^10 non corrisponde a: 110, 110x
+        * $ Corrisponde ai: caratteri adiacenti alla fine di una stringa 	
+        * 10$ corrisponde a: 110, 1010
+        * 10$ non corrisponde a: 100, 10x
 
 * Gruppi
-    ( ) 	Corrisponde ai: caratteri racchiusi nell'esatto ordine in qualsiasi punto di una stringa
+    * ( ) Corrisponde ai: caratteri racchiusi nell'esatto ordine in qualsiasi punto di una stringa
+    * Utilizzato anche per raggruppare altre espressioni 	(10) corrisponde a: 10, 101, 1011
+    * ([0-9]|[a-z]) corrisponde a: qualunque numero o lettera minuscola
+    * [ ] 	Corrisponde ai: caratteri racchiusi in qualsiasi ordine in qualsiasi punto di una stringa 	
+    * [10] corrisponde a: 012, 123, 202, 120, 210
+    * \- 	Crea un intervallo di caratteri tra parentesi che corrisponda in qualsiasi punto di una stringa 	[0-9] corrisponde a: tutti i numeri da 0 a 9
 
-
-    Utilizzato anche per raggruppare altre espressioni 	(10) corrisponde a: 10, 101, 1011
-
-    ([0-9]|[a-z]) corrisponde a: qualunque numero o lettera minuscola
-
-        * [ ] 	Corrisponde ai: caratteri racchiusi in qualsiasi ordine in qualsiasi punto di una stringa 	[10] corrisponde a: 012, 123, 202, 120, 210
-
-    * - 	Crea un intervallo di caratteri tra parentesi che corrisponda in qualsiasi punto di una stringa 	[0-9] corrisponde a: tutti i numeri da 0 a 9
-
-* Esc \ 	
+* Esc \
 * Indica che il carattere adiacente deve essere interpretato letteralmente invece che un metacarattere dell'espressione regolare 	
 * \. indica che il punto adiacente deve essere interpretato come un punto o una virgola invece che un carattere jolly.
 * 216\.239\.32\.34 corrisponde a: 216.239.32.34
@@ -94,21 +89,21 @@ Parentesi quadre [ ]
 
 Utilizza le parentesi quadre per creare un set di caratteri da abbinare.
 
-    Quando inserisci tra parentesi una serie di caratteri, l'espressione corrisponde a: 1 di questi caratteri.
+* Quando inserisci tra parentesi una serie di caratteri, l'espressione corrisponde a: 1 di questi caratteri.
 
-    Ad esempio, l'espressione PART[123] corrisponde a: 
+* Ad esempio, l'espressione PART[123] corrisponde a: 
 
-    PART1
-    PART2
-    PART3
+* PART1
+* PART2
+* PART3
 
-    L'espressione non corrisponde a: 
+* L'espressione non corrisponde a: 
 
-    PART12
-    PART23
-    PART123
+* PART12
+* PART23
+* PART123
 
-Trattino -
+## Trattino -
 
 Utilizza il trattino insieme alle parentesi quadre per creare una corrispondenza di un intervallo di caratteri.
 
@@ -118,24 +113,20 @@ Se devi corrispondere a tutte le cifre, puoi indicare [0-9].
 
 Se volevi una corrispondenza di tutto quanto indicato in precedenza, avresti potuto utilizzare la seguente espressione:
 
-[A-Z]+[0-9]+
+* [A-Z]+[0-9]+
+  * [A-Z] (corrisponde a: tutte le lettere maiuscole) + (una o più volte)
+  * [0-9] (corrisponde a: tutte le cifre) + (una o più volte)
 
-        [A-Z] (corrisponde a: tutte le lettere maiuscole)
-    + (una o più volte)
-        [0-9] (corrisponde a: tutte le cifre)
-    + (una o più volte)
+## Punto interrogativo (?), segno più (+), asterisco (*)
 
-Punto interrogativo (?), segno più (+), asterisco (*)
 Punto interrogativo (?)
 
-    Il punto interrogativo (?) corrisponde a: 0 o 1 volta il carattere che lo precede.
+* Il punto interrogativo (?) corrisponde a: 0 o 1 volta il carattere che lo precede.
+* Per esempio, 10? corrisponde a: 
+  * 1
+  * 10
 
-    For example, 10? corrisponde a: 
-
-    1
-    10
-
-Esempio
+### Esempio
 
 Abbina un indirizzo IP con 1 o 2 cifre nell'ultima sezione.
 
@@ -145,7 +136,9 @@ Abbina un indirizzo IP con 1 o 2 cifre nell'ultima sezione.
     216.239.32.34
 
 Questo esempio utilizza la barra inversa per evitare il punto e utilizza \d per corrispondere a qualsiasi cifra.
-Segno più (+)
+
+
+## Segno più (+)
 
     Il segno più (+) corrisponde a: 1 o più volte il carattere che lo precede.
 
@@ -180,7 +173,7 @@ Asterisco (*)
     e così via.
 
 
-Punto (.) e barra inversa (\)
+## Punto (.) e barra inversa (\)
 
 Alcuni caratteri hanno un significato nelle espressioni regolari e uno completamente diverso in altri contesti. Ad esempio, nelle espressioni regolari, il punto (.) è un carattere speciale utilizzato per abbinarsi a qualsiasi carattere. Nel linguaggio scritto, il punto (.) viene utilizzato per indicare la fine di una frase. In matematica, il punto decimale (.) viene utilizzato per separare la parte intera di un numero dalla parte decimale.
 
@@ -212,7 +205,7 @@ Utilizza la barra inversa per evitare i caratteri speciali e interpretarli lette
     \. (evita il punto)
 
 
-Accento circonflesso (^)
+## Accento circonflesso (^)
 
 Utilizza l'accento circonflesso perché corrisponda ai caratteri adiacenti e seguenti all'inizio di una stringa.
 
@@ -235,7 +228,7 @@ Utilizza questo tipo di espressione regolare per creare segmenti, filtri o fasi 
         ^/mens/ (corrisponde a: www.example.com/mens/)
         ^/womens/ (corrisponde a: www.example.com/womens/)
 
-Simbolo del dollaro ($)
+## Simbolo del dollaro ($)
 
     Il simbolo del dollaro corrisponde ai: caratteri precedenti e adiacenti alla fine di una stringa.
 
@@ -259,4 +252,3 @@ Utilizza questo tipo di espressione regolare per creare segmenti, filtri o passa
     email-signup\.html$
 
 Utilizza la barra per evitare il punto e fare in modo che sia interpretato letteralmente.
-

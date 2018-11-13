@@ -38,8 +38,10 @@ Un paradigma di programmazione è uno stile fondamentale di programmazione utile
 
 * La programmazione strutturata  è un paradigma emerso nella seconda metà degli anni '60, che ha introdotto i concetti fondamentali che sono alla base di tutti gli altri paradigmi successivi
 * È una metodologia alternativa alla programmazione basata sul salto incondizionato (o goto) dei primi linguaggi di programmazione caratterizzato da codice praticamente incomprensibile spesso definito spaghetti code per la sua natura ingarbugliata. 
-* le sole tre strutture fondamentali: 
-	* Struttura di sequenza 
+
+* le sole tre strutture fondamentali:
+
+	* Struttura di sequenza
 	* Struttura di selezione (o alternativa)
 	* Struttura di iterazione (o ciclo, ripetizione).
 
@@ -56,12 +58,13 @@ Un paradigma di programmazione è uno stile fondamentale di programmazione utile
 	Ad esempio una funzione senza parametri che abbia come valore di ritorno la data corrente
 
 Ne discende che:
+
 * Una funzione senza parametri non è pura o non ha senso
 * Una funzione senza un output non è pura
 
-Invece le funzioni pure garantiscono la trasparenza referenziale: la capacità di sostituire una espressione con il suo risultato, mantenendo la correttezza dell’applicazione. 
+Invece le funzioni pure garantiscono la trasparenza referenziale: la capacità di sostituire una espressione con il suo risultato, mantenendo la correttezza dell’applicazione.
 
-Sfruttando la trasparenza referenziale c’è la possibilità di utilizzare una tecnica detta memoization, che consiste nel mettere in cache risultati di funzioni che hanno un certo costo computazionale.
+Sfruttando la trasparenza referenziale c’è la possibilità di utilizzare una tecnica detta *memoization*, che consiste nel mettere in cache risultati di funzioni che hanno un certo costo computazionale.
 
 var funzioneMemoizzata = memoize(funzioneConCalcoliPesanti);
 
@@ -69,11 +72,19 @@ var funzioneMemoizzata = memoize(funzioneConCalcoliPesanti);
 
 **Procedurale vs OOP**
 
-* Nella programmazione procedurale, il codice è centrale e i dati sono subordinati. In altre parole, abbiamo programmi che agiscono sui dati che di solito non sono strettamente collegati.
+* Nella programmazione procedurale, il codice è centrale e i dati sono subordinati 
+* abbiamo programmi che agiscono sui dati che di solito non sono strettamente collegati
 
-* Nella programmazione a oggetti, gli oggetti sono l'elemento centrale. Un oggetto consiste nei dati (attributi, proprietà, ...) e nel codice che opera su tali dati(metodi, costruttore, ...), ed essi sono strettamente collegati. è il concetto di incapsulamento, che permette anche di nascondere l'implementazione interna.
+* Nella programmazione a oggetti, gli oggetti sono l'elemento centrale. 
+* Un oggetto consiste nei **dati** (attributi, proprietà, ...) 
+* e nel codice che opera su tali dati: **metodi** 
+* **dati e metodi** sono strettamente collegati: è il concetto di **incapsulamento**, che
+* l'**incapsulamento** permette anche di nascondere l'implementazione interna, utilizzando l'oggetto attraverso l'**interfaccia** pubblica.
 
-### Per esempio, abbiamo un numero e vogliamo raddoppiarlo. Nel modo procedurale faremmo:
+### Per esempio, 
+abbiamo un numero e vogliamo raddoppiarlo. 
+
+### Nel modo procedurale faremmo:
 
 ```java
 n = n * 2
@@ -81,13 +92,15 @@ n = n * 2
 
 **Il codice moltiplica n per 2 e registra il risultato in n.**
 
-Nella programmmazione orientata agli oggetti, si invia un "messaggio" all'oggetto chiamando un metodo per raddoppiare:
+### Nella programmmazione orientata agli oggetti
+
+si invia un "messaggio" all'oggetto chiamando un metodo per raddoppiare:
 
 ```java
 n.double();
 ```
 
-Con la OOP, puoi creare un oggetto di tipo stringa che accetta la chiamata al metodo double(), ma lo implementa in maniera differente. 
+puoi creare un oggetto di tipo stringa che accetta la chiamata al metodo `double()`, ma lo implementa in maniera differente. 
 
 ```java
 class Operazioni{
@@ -104,7 +117,9 @@ class Operazioni{
 }
 ```
 
-Il vantaggio di questa tecnica è definito polimorfismo. 
-Se il programma richiede di replicare la procedura su un oggetto di tipo string come "bob", nel modo procedurale occorre invocareuna nuova funzione con un codice e un nome differente.
+Il vantaggio di questa tecnica è definito **polimorfismo**.
+
+Se il programma richiede di replicare la procedura su un oggetto di tipo string come "bob", 
+nel modo procedurale occorre invocare una nuova funzione con un codice e un nome differente.
 
 [vai alla sezione programmazione a oggetti](005_OOP.md)

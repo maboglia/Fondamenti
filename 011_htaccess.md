@@ -118,16 +118,11 @@ Quando Apache deve processare una richiesta, verifica se per quella directory è
 Quando tutte le directory sono state verificate, Apache esegue il merge dando la precedenza a quelle opzioni abilitate nei file .htaccess trovati nei livelli più bassi.
 
 La sintassi della funzione AllowOverride è simile a quella di Options, in totale ci sono 5 opzioni possibili oltre ad All e None
-
-AuthConfig Permette l'utilizzo delle direttive Authname, AuthType, AuthUserFile (richiede il caricamento del modulo mod_auth) 
-
-FileInfo Permette l'uso delle direttive per il controllo dei file types come AddType, DefaultType, AddEncoding, AddLanguage, ErrorDocument etc..
-
-Indexes Abilita le direttive per il controllo dell'output del contenuto delle directory
-
-Limit Abilita l'uso del modulo mod_access e delle relative direttive, allow, deny, order per l'accesso alle risorse.
-
-Options Abilita l'uso di Options e XBitHack
+* AuthConfig Permette l'utilizzo delle direttive Authname, AuthType, AuthUserFile (richiede il caricamento del modulo mod_auth) 
+* FileInfo Permette l'uso delle direttive per il controllo dei file types come AddType, DefaultType, AddEncoding, AddLanguage, ErrorDocument etc..
+* Indexes Abilita le direttive per il controllo dell'output del contenuto delle directory
+* Limit Abilita l'uso del modulo mod_access e delle relative direttive, allow, deny, order per l'accesso alle risorse.
+* Options Abilita l'uso di Options e XBitHack
 
 Anche per AllowOverride come per Options è possibile modificare semplicemente le direttive ereditate dai livelli più alti, utilizzando il prefisso - per disabilitare e il prefisso + per abilitare. Per esempio:
 AllowOverrides -Indexes +AuthConfig
