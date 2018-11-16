@@ -4,7 +4,8 @@ Indice che calcola la popolarità dei linguaggi di programmazione
 
 ## TIOBE Programming Community Index Definition
 
-Since there are many questions about the way the TIOBE index is assembled, a special page is devoted to its definition. Basically the calculation comes down to counting hits for the search query
+Since there are many questions about the way the TIOBE index is assembled, a special page is devoted to its definition. 
+Basically the calculation comes down to counting hits for the search query
 
 `+"<language> programming"`
 
