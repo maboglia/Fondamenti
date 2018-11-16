@@ -25,7 +25,7 @@
 
 ## Tipologie di lezioni
 
-Lezione ed Esercitazione (4,5 ore/settimana)
+Lezione ed Esercitazione (18 ore/settimana)
 
 * le esercitazioni sono mescolate ed intercalate alle lezioni
   * affrontare i problemi attraverso approcci algoritmici e strutture dati efficienti
