@@ -9,4 +9,4 @@
 	* Struttura di selezione (o alternativa)
 	* Struttura di iterazione (o ciclo, ripetizione).
 
-[Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md#Paradigmi)
+[Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md#paradigmi)
