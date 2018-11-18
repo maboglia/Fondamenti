@@ -66,4 +66,4 @@ Due algoritmi equivalenti:
 ![diagrammi flusso](img/diagrammi_flusso1.jpg)
 
 
-[003_ParadigmiLinguaggi](003_ParadigmiLinguaggi.md)
+[Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md)

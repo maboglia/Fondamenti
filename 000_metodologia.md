@@ -34,4 +34,4 @@ Lezione ed Esercitazione (18 ore/settimana)
   * utilizzare esempi reali o realistici
 
 
-[problemiinfrmatici](001_ProblemiInformatici.md)
+[problemi informatici](001_ProblemiInformatici.md)

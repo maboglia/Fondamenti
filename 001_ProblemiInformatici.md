@@ -38,4 +38,4 @@
 * e così via...
 
 
-[Algoritmi](001_Algoritmi.md)
+[Algoritmi](002_Algoritmi.md)
