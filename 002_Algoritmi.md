@@ -1,18 +1,8 @@
 # Algoritmi
 
-## Proprietà degli algoritmi
-
-* Eseguibile
-* Non ambiguo
-* Finito
-* Generalizzabile
-* Efficiente
-* Deterministico
-* Completo
-
 ![algoritmo](img/algoritmo.png)
 
-## Proprietà degli algoritmi 2
+## Proprietà degli algoritmi
 
 * Eseguibilità: ogni “istruzione” deve essere eseguibile da parte dell’esecutore dell’algoritmo;
 * Non Ambiguità: ogni istruzione deve essere univocamente interpretabile dall'esecutore
@@ -24,17 +14,17 @@
 
 ## Algoritmi e Programmi
 
-Se l'esecutore è un elaboratore elettronico:
+Se l'**esecutore** è un elaboratore elettronico:
 
 * È necessario conoscere l'insieme di istruzioni che è in grado di interpretare
 * È necessario conoscere quali tipi di informazioni (dati) è in grado di rappresentare
 * È necessario conoscere le caratteristiche del linguaggio di programmazione scelto
 
-Dato un problema P, la sua soluzione può essere ottenuta mediante l’uso del calcolatore, compiendo i seguenti passi:
+Dato un problema P, la sua soluzione può essere ottenuta mediante l’uso del calcolatore:
 
-* individuazione di un metodo risolutivo
-* scomposizione del procedimento in insieme ordinato di azioni: algoritmo
-* rappresentazione dei dati e dell'algoritmo attraverso un linguaggio di programmazione comprensibile per l’elaboratore: programma
+1. individuazione di un metodo risolutivo
+2. scomposizione del procedimento in insieme ordinato di azioni: **algoritmo**
+* rappresentazione dei dati e dell'algoritmo attraverso un linguaggio comprensibile per l’elaboratore: **programma**
 
 Si ottiene così il PROGRAMMA, che potrà essere eseguito dall'elaboratore per risolvere automaticamente ogni istanza del problema P.
 
@@ -42,9 +32,9 @@ Si ottiene così il PROGRAMMA, che potrà essere eseguito dall'elaboratore per r
 
 Due algoritmi si dicono equivalenti quando:
 
-* hanno lo stesso dominio dei dati (dominio di ingresso);
-* hanno lo stesso dominio dei risultati (dominio di uscita);
-* in corrispondenza degli stessi valori nel dominio di ingresso producono gli stessi valori nel dominio di uscita
+* hanno lo stesso dominio dei dati: **dominio di ingresso**
+* hanno lo stesso dominio dei risultati: **dominio di uscita**
+* in corrispondenza degli stessi valori nel dominio di ingresso producono **gli stessi valori** nel dominio di uscita
 
 Due algoritmi equivalenti:
 
