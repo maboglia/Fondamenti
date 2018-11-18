@@ -6,4 +6,4 @@
 	* 2: print i
 	* 3: goto 1
 
-[Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md)
+[Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md#Paradigmi)

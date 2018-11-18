@@ -4,4 +4,4 @@
 * questi sono detti anche sottoprogrammi (in inglese subroutine) procedure o funzioni, a seconda del linguaggio e dei loro ruoli all'interno del linguaggio stesso.
 * Il nome deriva dal linguaggio COBOL, che è stato il primo ad utilizzare questo concetto.
 
-[Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md)
+[Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md#Paradigmi)

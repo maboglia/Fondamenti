@@ -21,4 +21,4 @@ Sfruttando la trasparenza referenziale c’è la possibilità di utilizzare una 
 
 var funzioneMemoizzata = memoize(funzioneConCalcoliPesanti);
 
-[Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md)
+[Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md#Paradigmi)
