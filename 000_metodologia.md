@@ -32,3 +32,6 @@ Lezione ed Esercitazione (18 ore/settimana)
   * utilizzare i meccanismi di astrazione offerti dalla programmazione ad oggetti
   * realizzare applicazioni (anche gradevoli)
   * utilizzare esempi reali o realistici
+
+
+[problemiinfrmatici](001_ProblemiInformatici.md)

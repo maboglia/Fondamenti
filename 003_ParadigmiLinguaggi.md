@@ -123,3 +123,6 @@ Se il programma richiede di replicare la procedura su un oggetto di tipo string 
 nel modo procedurale occorre invocare una nuova funzione con un codice e un nome differente.
 
 [vai alla sezione programmazione a oggetti](005_OOP.md)
+
+
+[Teorema Jacopini Bohm](004_TeoremaJB.md)

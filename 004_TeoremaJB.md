@@ -11,3 +11,5 @@ Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre st
     * modifica
 
 ![strutture_controllo](img/strutture_controllo.gif)
+
+[OOP](005_OOP.md)

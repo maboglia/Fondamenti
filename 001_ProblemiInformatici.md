@@ -36,3 +36,6 @@
 * Dati gli archivi dei dipendenti di un’azienda, calcolare lo stipendio medio del dipendente dell’azienda.
 * Dati a e b, risolvere l'equazione ax+b=0
 * e così via...
+
+
+[Algoritmi](001_Algoritmi.md)
