@@ -25,7 +25,7 @@
 
 ## Tipologie di lezioni
 
-Lezione ed Esercitazione (18 ore/settimana)
+Lezione ed Esercitazione (in media 18 ore/settimana)
 
 * le esercitazioni sono mescolate ed intercalate alle lezioni
   * affrontare i problemi attraverso approcci algoritmici e strutture dati efficienti
@@ -33,5 +33,5 @@ Lezione ed Esercitazione (18 ore/settimana)
   * realizzare applicazioni (anche gradevoli)
   * utilizzare esempi reali o realistici
 
-
+[sapere e saper fare](008_saperfare.md)
 [problemi informatici](001_ProblemiInformatici.md)
