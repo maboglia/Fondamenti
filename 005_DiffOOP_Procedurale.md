@@ -85,5 +85,3 @@ Se il programma richiede di replicare la procedura su un oggetto di tipo string 
 nel modo procedurale occorre invocare una nuova funzione con un codice e un nome differente.
 
 [OOP](005_OOP.md)
-
-     
