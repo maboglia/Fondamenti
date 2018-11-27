@@ -1,5 +1,37 @@
 # Programmazione ad oggetti vs procedurale
 
+                 
+                 
+## Programmazione imperativa
+
+Possiamo programmare utilizzando i seguenti tipi di dati:
+
+* Tipi di dato primitivi (int, double, char, boolean, ecc...) 
+* Le stringhe
+* Gli array
+
+I programmi consistono di una sequenza di comandi,
+strutture di controllo (cicli, scelte condizionali, ecc...) ed eventualmente metodi ausiliari che consentono di manipolare i dati per calcolare il risultato voluto.
+
+Questo modo di programmare prende il nome di __PROGRAMMAZIONE IMPERATIVA__, imperativa in quanto basata su comandi
+                     
+## Programmazione imperativa
+
+Nella programmazione imperativa:
+* Un programma prevede uno stato globale costituito dai valori delle sue variabili
+* I comandi del programma modificano lo stato fino a raggiungere uno stato finale (che include il risultato)
+                        
+## Programmazione imperativa
+
+Ad esempio, il seguente programma (che calcola il prodotto di x e y) ha la seguente dinamica:
+
+```java
+int x=10, y=3, p=0;
+for (int i=0; i<y; i++)
+p+=x;
+```
+
+
 **Procedurale vs OOP**
 
 * Nella programmazione procedurale, il codice è centrale e i dati sono subordinati 
@@ -53,3 +85,5 @@ Se il programma richiede di replicare la procedura su un oggetto di tipo string 
 nel modo procedurale occorre invocare una nuova funzione con un codice e un nome differente.
 
 [OOP](005_OOP.md)
+
+     
