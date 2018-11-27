@@ -81,7 +81,6 @@ class Operazioni{
 
 Il vantaggio di questa tecnica è definito **polimorfismo**.
 
-Se il programma richiede di replicare la procedura su un oggetto di tipo string come "bob", 
-nel modo procedurale occorre invocare una nuova funzione con un codice e un nome differente.
+Se il programma richiede di replicare la procedura su un oggetto di tipo string come "bob", nel modo procedurale occorre invocare una nuova funzione con un codice e un nome differente.
 
 [OOP](005_OOP.md)
