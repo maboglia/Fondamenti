@@ -1,4 +1,4 @@
-#ECMAScript
+# ECMAScript
 [Da Wikipedia, l'enciclopedia libera](https://it.wikipedia.org/wiki/ECMAScript)
 
 **ECMAScript** (o ES) è un linguaggio di programmazione standardizzato e mantenuto da Ecma International nell'ECMA-262 ed ISO/IEC 16262. 
