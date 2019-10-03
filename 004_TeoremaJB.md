@@ -1,6 +1,8 @@
 
 ## Teorema di Jacopini-Bohm (1966)
 
+Teorema fondamentale della programmazione strutturata
+
 Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre strutture di controllo:
 
 * sequenza:  una serie di istruzioni eseguite in maniera sequenziale
@@ -11,5 +13,9 @@ Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre st
     * modifica
 
 ![strutture_controllo](img/strutture_controllo.gif)
+
+* Le tre strutture possono essere concatenate una di seguito all’altra oppure nidificate una dentro l’altra.
+* Non possono essere “intrecciate” o “accavallate”.
+
 
 [OOP](005_OOP.md)

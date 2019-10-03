@@ -1,5 +1,9 @@
 # Algoritmi
 
+* Un algoritmo è una descrizione dettagliata, per passi elementari successivi, di una strategia utile per risolvere un determinato problema.
+* Ogni algoritmo è un insieme finito di passi e deve terminare dopo un numero finito di iterazioni.
+* Nella progettazione di un algoritmo il programmatore inizia a porsi problemi relativi alla rappresentazione delle informazioni che deve essere efficiente (senza sprechi inutili) ed efficace (non si deve perdere traccia di dati importanti).
+
 ![algoritmo](img/algoritmo.png)
 
 ## Proprietà degli algoritmi
@@ -7,7 +11,9 @@
 * Eseguibilità: ogni “istruzione” deve essere eseguibile da parte dell’esecutore dell’algoritmo;
 * Non Ambiguità: ogni istruzione deve essere univocamente interpretabile dall'esecutore
 * Finitezza: il numero totale di azioni da eseguire, per ogni insieme di dati di ingresso, è finito.
-* se almeno una delle 3 proprietà non è soddisfatta, la sequenza non è un algoritmo.
+
+se almeno una delle 3 proprietà non è soddisfatta, la sequenza non è un algoritmo.
+
 * Generalità: corretto funzionamento dell'algoritmo anche variando alcuni aspetti del problema (ad esempio, la dimensione dell'insieme dei dati, il tipo dei * dati, ecc.)
 * Efficienza: tanto minore è il numero di azioni eseguite per la risoluzione del problema, tanto maggiore è l'efficienza.
 * Determinismo: possibilità di prevedere esattamente prima dell'esecuzione la sequenza di azioni che verranno eseguite, per ogni insieme di dati.
@@ -24,9 +30,9 @@ Dato un problema P, la sua soluzione può essere ottenuta mediante l’uso del c
 
 1. individuazione di un metodo risolutivo
 2. scomposizione del procedimento in insieme ordinato di azioni: **algoritmo**
-* rappresentazione dei dati e dell'algoritmo attraverso un linguaggio comprensibile per l’elaboratore: **programma**
+3. rappresentazione dei dati e dell'algoritmo attraverso un linguaggio comprensibile per l’elaboratore: **programma**
 
-Si ottiene così il PROGRAMMA, che potrà essere eseguito dall'elaboratore per risolvere automaticamente ogni istanza del problema P.
+Il **PROGRAMMA** potrà essere eseguito dall'elaboratore per risolvere automaticamente ogni istanza del problema P.
 
 ## Algoritmi equivalenti
 
