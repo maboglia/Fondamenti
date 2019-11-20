@@ -1,7 +1,7 @@
 
 ## Teorema di Jacopini-Bohm (1966)
 
-Teorema fondamentale della programmazione strutturata
+Teorema fondamentale della [programmazione strutturata](003_Strutturata.md)
 
 Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre strutture di controllo:
 
@@ -18,4 +18,5 @@ Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre st
 * Non possono essere “intrecciate” o “accavallate”.
 
 
-[OOP](005_OOP.md)
+* [OOP - programmazione orientatata agli oggetti](005_OOP.md)
+* [programmazione strutturata](003_Strutturata.md)
