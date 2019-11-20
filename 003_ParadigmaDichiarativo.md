@@ -1,4 +1,4 @@
-Programmazione dichiarativa
+# Programmazione dichiarativa
 
 Nell'informatica la programmazione dichiarativa è uno stile di costruzione di programmi che esprime la logica del calcolo senza parlare del suo flusso di controllo. 
 
