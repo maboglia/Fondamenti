@@ -11,7 +11,7 @@
 * 422 – Unprocessable Entity – deve essere usato se il server non può elaborare il enitity, ad esempio se un’immagine non può essere formattata o campi obbligatori sono mancanti nel payload.
 * 500 – Internal Server Error – gli sviluppatori di API dovrebbero evitare questo errore. Se si verifica un errore globale dell’applicazione, lo stacktrace deve esere loggato e non inviato nella risposta all’utente.
 
-## Protocollo HTTP
+## Classi di messaggi legati allo status-code
 
 
 * 1xx - Messaggio informativo

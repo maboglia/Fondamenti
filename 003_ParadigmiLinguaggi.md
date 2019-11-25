@@ -1,14 +1,6 @@
 # Paradigmi di programmazione e linguaggi
 
 
-## Teorema di Jacopini-Bohm (1966)
-
-Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre strutture di controllo:
-
-* sequenza, selezione e iterazione.
-
-* [Teorema Jacopini Bohm](004_TeoremaJB.md)
-
 ## Quanti Linguaggi...
 
 ![linguaggi](img/linguaggi.jpg)
@@ -18,6 +10,16 @@ Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre st
 ![paradigmi](img/paradigmi.jpg)
 
 Un paradigma di programmazione è uno stile fondamentale di programmazione utile per portare ordine e criteri di lavoro più efficienti nella produzione dei programmi 
+
+
+## Teorema di Jacopini-Bohm (1966)
+
+Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre strutture di controllo:
+
+* sequenza, selezione e iterazione.
+
+* [Teorema Jacopini Bohm](004_TeoremaJB.md)
+
 
 ## Paradigmi
 

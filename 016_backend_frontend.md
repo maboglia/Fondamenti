@@ -5,9 +5,11 @@
 ## Front and back ends
 *From Wikipedia, the free encyclopedia*
 
-In software engineering, the terms front end and back end refer to the separation of concerns between the presentation layer (front end), and the data access layer (back end) of a piece of software, or the physical infrastructure or hardware. In the client–server model, the client is usually considered the front end and the server is usually considered the back end, even when some presentation work is actually done on the server. 
+Nell'ingegneria del software, i termini front-end e back-end si riferiscono alla separazione delle competenze tra il livello di presentazione (front-end) e il livello di accesso ai dati (back-end) di un software o l'infrastruttura fisica o l'hardware. 
 
-### Both
+Nel modello client-server, il client viene generalmente considerato il front-end e il server viene generalmente considerato il back-end, anche quando sul server viene effettivamente eseguito un lavoro di presentazione.
+
+### Entrambi 
 
 * Version control tools such as GitHub, SourceForge, or Mercurial
 * File transfer tools and protocols such as FTP or rsync
