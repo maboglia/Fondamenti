@@ -7,16 +7,20 @@
 	* 2: print i
 	* 3: goto 1
 
+---
 
-Questo modello di progettzione del software si  basa sull’idea della sequenza ordinata di passi e sull’istruzione di assegnamento che serve per cambiare il valore delle variabili. 
+Questo modello di progettazione del software si  basa sull’idea della sequenza ordinata di passi e sull’istruzione di assegnamento che serve per cambiare il valore delle variabili. 
 
 Il paradigma imperativo è molto vicino al modo di funzionamento dell’elaboratore: è molto efficiente per un uso generale e non è riservato a specifici problemi. (Es.Fortran, Cobol, Pascal, Basic, C)
 
 È uno dei paradigmi di programmazione più antichi. Presenta una stretta relazione con l'architettura della macchina. Si basa sull'architettura Von Neumann. Funziona modificando lo stato del programma tramite istruzioni di assegnazione. Esegue attività passo-passo cambiando lo stato. L'attenzione principale è su come raggiungere l'obiettivo. Il paradigma consiste in diverse affermazioni e dopo l'esecuzione di tutto il risultato viene memorizzato.
 
+---
+
+**Calcola la media di 5 numeri interi in linguaggio C** 
+
 ```C
 
-// media di 5 numeri interi inlinguaggio C 
   
 int voti[5] = { 28, 29, 30, 25, 123 } int somma = 0; 
 float media = 0.0; 
@@ -27,10 +31,12 @@ media = somma / 5;
 
 ```
 
-La programmazione imperativa è suddivisa in tre grandi categorie: 
+### La programmazione imperativa è suddivisa in tre grandi categorie: 
 
-* procedurale, 
-* OOP 
+* [procedurale](./003_Procedurale.md), 
+* [OOP](:/005_OOP.md) 
 * elaborazione parallela.
 
-[Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md#paradigmi)
+## Argomenti correlati
+* [differenza tra OOP e procedurale](005_DiffOOP_Procedurale.md)
+* [Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md#paradigmi)

@@ -23,14 +23,15 @@ Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre st
 
 ## Paradigmi
 
-* [La programmazione procedurale](003_Procedurale.md)
+* [La programmazione strutturata](003_Strutturata.md)
 
 * [La programmazione imperativa](003_Imperativa.md)
 
-* [La programmazione strutturata](003_Strutturata.md)
-
-* [La programmazione funzionale](003_Funzionale.md)
+* [La programmazione procedurale](003_Procedurale.md)
 
 * [La programmazione ad oggetti](005_OOP.md)
 
-* [Teorema Jacopini Bohm](004_TeoremaJB.md)
+* [La programmazione funzionale](003_Funzionale.md)
+
+* [La programmazione logica](003_Programmazione_logica.md)
+
