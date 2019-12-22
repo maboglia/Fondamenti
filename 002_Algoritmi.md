@@ -4,7 +4,7 @@
 * Ogni algoritmo è un insieme finito di passi e deve terminare dopo un numero finito di iterazioni.
 * Nella progettazione di un algoritmo il programmatore inizia a porsi problemi relativi alla rappresentazione delle informazioni che deve essere efficiente (senza sprechi inutili) ed efficace (non si deve perdere traccia di dati importanti).
 
-![algoritmo](img/algoritmo.png)
+![algoritmo](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/algoritmo.png)
 
 ## Proprietà degli algoritmi
 
