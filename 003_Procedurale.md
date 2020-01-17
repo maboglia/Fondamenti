@@ -20,32 +20,28 @@ In poche parole, la Programmazione procedurale comporta la redazione di un elenc
 
 Le caratteristiche principali della programmazione procedurale sono riportate di seguito:
 
-* Funzioni predefinite: una funzione predefinita è in genere un'istruzione identificata da un nome. Di solito, le funzioni predefinite sono integrate in linguaggi di programmazione di livello superiore, ma derivano dalla libreria o dal registro, piuttosto che dal programma. Un esempio di una funzione predefinita è `charAt()`, che cerca la posizione di un carattere in una stringa.
-* Variabile locale: una variabile locale è una variabile dichiarata nella struttura principale di un metodo ed è limitata all'ambito locale che viene fornito. La variabile locale può essere utilizzata solo nel metodo in cui è definita e, se dovesse essere utilizzata al di fuori del metodo definito, il codice smetterà di funzionare.
-* Variabile globale: una variabile globale è una variabile dichiarata al di fuori di ogni altra funzione definita nel codice. Per questo motivo, le variabili globali possono essere utilizzate in tutte le funzioni, diversamente da una variabile locale.
-* Modularità: la modularità è quando due sistemi diversi hanno due compiti diversi a portata di mano ma sono raggruppati insieme per concludere prima un compito più ampio. Ogni gruppo di sistemi dovrebbe quindi completare i propri compiti uno dopo l'altro fino al completamento di tutti i compiti.
-* Passaggio parametri: il passaggio parametri è un meccanismo utilizzato per passare parametri a funzioni, subroutine o procedure. Il passaggio dei parametri può essere eseguito tramite "passa per valore", "passa per riferimento", "passa per risultato", "passa per risultato valore" e "passa per nome".
+* **Funzioni predefinite**: una funzione predefinita è in genere un'istruzione identificata da un nome. Di solito, le funzioni predefinite sono integrate in linguaggi di programmazione di livello superiore, ma derivano dalla libreria o dal registro, piuttosto che dal programma. Un esempio di una funzione predefinita è `charAt()`, che cerca la posizione di un carattere in una stringa.
+* **Variabile locale**: una variabile locale è una variabile dichiarata nella struttura principale di un metodo ed è limitata all'ambito locale che viene fornito. La variabile locale può essere utilizzata solo nel metodo in cui è definita e, se dovesse essere utilizzata al di fuori del metodo definito, il codice smetterà di funzionare.
+* **Variabile globale**: una variabile globale è una variabile dichiarata al di fuori di ogni altra funzione definita nel codice. Per questo motivo, le variabili globali possono essere utilizzate in tutte le funzioni, diversamente da una variabile locale.
+* **Modularità**: la modularità è quando due sistemi diversi hanno due compiti diversi a portata di mano ma sono raggruppati insieme per concludere prima un compito più ampio. Ogni gruppo di sistemi dovrebbe quindi completare i propri compiti uno dopo l'altro fino al completamento di tutti i compiti.
+* **Passaggio parametri**: il passaggio parametri è un meccanismo utilizzato per passare parametri a funzioni, subroutine o procedure. Il passaggio dei parametri può essere eseguito tramite "passa per valore", "passa per riferimento", "passa per risultato", "passa per risultato valore" e "passa per nome".
 
 # Vantaggi e svantaggi della programmazione procedurale
 
 La programmazione procedurale include una serie di pro e contro, alcuni dei quali sono indicati di seguito.
 
 ### vantaggi
-* La programmazione procedurale è eccellente per la programmazione generale
-* La semplicità insieme alla facilità di implementazione di compilatori e interpreti
-* Una grande varietà di libri e materiale didattico online disponibile su algoritmi testati, che semplifica l'apprendimento lungo il percorso
-* Il codice sorgente è portabile, pertanto può essere utilizzato anche come target per una CPU diversa
-* Il codice può essere riutilizzato in diverse parti del programma, senza la necessità di copiarlo
-* Attraverso la tecnica di programmazione procedurale, anche il requisito di memoria viene ridotto
-* Il flusso del programma può essere monitorato facilmente 
+
+* eccellente per la programmazione generale
+* semplicità
+* libri e materiale didattico online
+* codice sorgente portabile
+* minore uso della memoria
+* gestione del flusso semplificata 
 
 ### svantaggi
-* Il codice del programma è più difficile da scrivere quando si utilizza la Programmazione procedurale
-* Il codice procedurale spesso non è riutilizzabile, il che può comportare la necessità di ricreare il codice se necessario per l'uso in un'altra applicazione
+* codice _difficile_ da scrivere 
+* codice spesso non riutilizzabile
 * Difficile relazionarsi con oggetti del mondo reale
 * L'importanza è data all'operazione piuttosto che ai dati, il che potrebbe comportare problemi in alcuni casi sensibili ai dati
 * I dati sono esposti a tutto il programma, il che rende meno sicuro il programma
-
-Esistono diversi tipi di paradigma di programmazione, che non sono altro che uno stile di programmazione. Il paradigma non si adatta a una lingua specifica, ma al modo in cui è scritto il programma. 
-
-[Paradigmi e Linguaggi](003_ParadigmiLinguaggi.md#paradigmi)
