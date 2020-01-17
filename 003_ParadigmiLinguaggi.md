@@ -18,20 +18,20 @@ Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre st
 
 * sequenza, selezione e iterazione.
 
-* [Teorema Jacopini Bohm](004_TeoremaJB.md)
+* [Teorema Jacopini Bohm](https://raw.githubusercontent.com/maboglia/Fondamenti/master/004_TeoremaJB.md)
 
 
 ## Paradigmi
 
-* [La programmazione strutturata](003_Strutturata.md)
+* [La programmazione strutturata](https://raw.githubusercontent.com/maboglia/Fondamenti/master/003_Strutturata.md)
 
-* [La programmazione imperativa](003_Imperativa.md)
+* [La programmazione imperativa](https://raw.githubusercontent.com/maboglia/Fondamenti/master/003_Imperativa.md)
 
-* [La programmazione procedurale](003_Procedurale.md)
+* [La programmazione procedurale](https://raw.githubusercontent.com/maboglia/Fondamenti/master/003_Procedurale.md)
 
-* [La programmazione ad oggetti](005_OOP.md)
+* [La programmazione ad oggetti](https://raw.githubusercontent.com/maboglia/Fondamenti/master/005_OOP.md)
 
-* [La programmazione funzionale](003_Funzionale.md)
+* [La programmazione funzionale](https://raw.githubusercontent.com/maboglia/Fondamenti/master/003_Funzionale.md)
 
-* [La programmazione logica](003_Programmazione_logica.md)
+* [La programmazione logica](https://raw.githubusercontent.com/maboglia/Fondamenti/master/003_Programmazione_logica.md)
 
