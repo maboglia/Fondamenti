@@ -18,20 +18,20 @@ Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre st
 
 * sequenza, selezione e iterazione.
 
-* [Teorema Jacopini Bohm](https://raw.githubusercontent.com/maboglia/Fondamenti/master/004_TeoremaJB.md)
+* [Teorema Jacopini Bohm](https://github.com/maboglia/Fondamenti/blob/master/004_TeoremaJB.md)
 
 
 ## Paradigmi
 
-* [La programmazione strutturata](https://raw.githubusercontent.com/maboglia/Fondamenti/master/003_Strutturata.md)
+* [La programmazione strutturata](https://github.com/maboglia/Fondamenti/blob/master/003_Strutturata.md)
 
-* [La programmazione imperativa](https://raw.githubusercontent.com/maboglia/Fondamenti/master/003_Imperativa.md)
+* [La programmazione imperativa](https://github.com/maboglia/Fondamenti/blob/master/003_Imperativa.md)
 
-* [La programmazione procedurale](https://raw.githubusercontent.com/maboglia/Fondamenti/master/003_Procedurale.md)
+* [La programmazione procedurale](https://github.com/maboglia/Fondamenti/blob/master/003_Procedurale.md)
 
-* [La programmazione ad oggetti](https://raw.githubusercontent.com/maboglia/Fondamenti/master/005_OOP.md)
+* [La programmazione ad oggetti](https://github.com/maboglia/Fondamenti/blob/master/005_OOP.md)
 
-* [La programmazione funzionale](https://raw.githubusercontent.com/maboglia/Fondamenti/master/003_Funzionale.md)
+* [La programmazione funzionale](https://github.com/maboglia/Fondamenti/blob/master/003_Funzionale.md)
 
 * [La programmazione logica](https://raw.githubusercontent.com/maboglia/Fondamenti/master/003_Programmazione_logica.md)
 
