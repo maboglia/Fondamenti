@@ -3,11 +3,11 @@
 
 ## Quanti Linguaggi...
 
-![linguaggi](img/linguaggi.jpg)
+![linguaggi](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/linguaggi.jpg)
 
 ## … e quanti paradigmi di programmazione
 
-![paradigmi](img/paradigmi.jpg)
+![paradigmi](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/paradigmi.jpg)
 
 Un paradigma di programmazione è uno stile fondamentale di programmazione utile per portare ordine e criteri di lavoro più efficienti nella produzione dei programmi 
 
