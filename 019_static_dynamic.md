@@ -1,13 +1,13 @@
 # static vs dynamic web pages
 
 ## static
-![static](img/static_web_pages.png)
+![static](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/static_web_pages.png)
 
 ## dynamic
-![dynamic](img/dynamic_web_pages_PHP.png)
+![dynamic](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/dynamic_web_pages_PHP.png)
 
 ## web application
-![application](img/web_application.png)
+![application](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/web_application.png)
 
 ## Internet
-![Internet](img/architecture_Internet.png)
+![Internet](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/architecture_Internet.png)

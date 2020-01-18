@@ -50,7 +50,7 @@ Due algoritmi equivalenti:
 
 ## Rappresentare algoritmi
 
-![diagramma_flusso](img/diagramma_flusso.png)
+![diagramma_flusso](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/diagramma_flusso.png)
 
 * un diagramma di flusso descrive le azioni da eseguire ed il loro ordine di esecuzione.
 * ad ogni tipo di azione corrisponde ad un simbolo grafico (blocco) diverso.
@@ -59,7 +59,7 @@ Due algoritmi equivalenti:
 
 ## Oggetti grafici per rappresentare algoritmi
 
-![diagrammi flusso](img/diagrammi_flusso1.jpg)
+![diagrammi flusso](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/diagrammi_flusso1.jpg)
 
 
 ## esempio: calcolo radice quadrata

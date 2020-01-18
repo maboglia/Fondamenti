@@ -12,7 +12,7 @@ Un qualsiasi algoritmo può essere espresso utilizzando esclusivamente le tre st
     * condizione
     * modifica
 
-![strutture_controllo](img/strutture_controllo.gif)
+![strutture_controllo](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/strutture_controllo.gif)
 
 * Le tre strutture possono essere concatenate una di seguito all’altra oppure nidificate una dentro l’altra.
 * Non possono essere “intrecciate” o “accavallate”.

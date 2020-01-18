@@ -25,7 +25,7 @@
 
 A cosa servono?
 
-![a cosa servono](img/a_cosa_servono.png)
+![a cosa servono](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/a_cosa_servono.png)
 
 
 ## Ricapitolando

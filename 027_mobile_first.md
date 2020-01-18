@@ -1,6 +1,6 @@
 # Mobile First
 
-![mobile first](img/mobile-first.png)
+![mobile first](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/mobile-first.png)
 
 Secondo questo approccio, nella progettazione del sito, è necessario partire dalla strutturazione dei contenuti per lo schermo limitato nelle dimensioni dei dispositivi mobili. 
 

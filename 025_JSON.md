@@ -1,6 +1,6 @@
 # JSON
 
-![JSON_ref](img/JSON_ref.png)
+![JSON_ref](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/JSON_ref.png)
 
 ## Oggetti JS e JSON
 

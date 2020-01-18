@@ -3,7 +3,7 @@
 * Coding is about building things.
 * 80% of the time spent on a software project is invested in 20% of the functionality.
 
-![YAGNI](img/8020.png)
+![YAGNI](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/8020.png)
 
 * In ingegneria del software, l'espressione you aren't gonna need it, dall'inglese «non ne avrai bisogno», (spesso abbreviata in YAGNI) si riferisce ad un principio dell'extreme programming secondo cui un programmatore non dovrebbe sviluppare software che implementa funzionalità non esplicitamente richieste.
 * Ron Jeffries ha formulato il principio con queste parole: 

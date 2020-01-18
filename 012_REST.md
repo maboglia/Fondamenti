@@ -14,7 +14,7 @@ L’approccio proposto prevede che il sistema venga progettato seguendo i seguen
 
 Un sistema che segue i principi dettati da **REST** viene comunemente definito **REST**ful.
 
-![REST](img/REST.png)
+![REST](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/REST.png)
 
 * Solitamente REST viene associato al **protocollo HTTP**: preferibile poiché estremamente diffuso e già utilizzato per trasferire “ipertesti” collocati a determinati indirizzi,
 

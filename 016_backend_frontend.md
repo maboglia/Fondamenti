@@ -1,6 +1,6 @@
 # front-end e back-end
 
-![frontend - backend](img/backend-frontend/backend_frontend.png)
+![frontend - backend](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/backend-frontend/backend_frontend.png)
 
 ## Front and back ends
 *From Wikipedia, the free encyclopedia*
