@@ -240,3 +240,38 @@ Manutenibilità è un termine semplice che significa che la programmazione FP è
 * XSLT
 * SQL
 * Mathematica
+
+
+### Imperative
+
+```java
+const arr = [1, 2, 3, 4, 5, 6 ,7 ,8 ,9]
+
+function getOdds(arr){
+   let odds = [ ];    for(let i = 0; i < arr.length + 1; i++){
+          if ( i % 2 !== 0 ){
+             odds.push( i )
+          };
+        };
+    return odds
+  };
+  console.log(getOdds(arr))
+// stampa [1, 3, 5, 7, 9]
+```
+
+### Functional
+
+```java
+
+function getOdds2(arr){
+   return arr.filter(num => num % 2 !== 0)
+}
+console.log(getOdds2(arr))
+// stampa [ 1, 3, 5, 7, 9 ]
+
+// sintassi abbreviata (lambda)
+const getOdds3 = arr => arr.filter(num => num % 2 !== 0)
+console.log(getOdds3(arr))
+// stampa [ 1, 3, 5, 7, 9 ]
+
+```
