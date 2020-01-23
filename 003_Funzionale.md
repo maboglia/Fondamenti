@@ -161,6 +161,34 @@ var serieFibonacci = function (n)
 
 ```
 
+### Fumzione Ricorsiva 
+
+```javascript
+function fattorializza(num){
+   if (num === 0 || num === 1){return 1;}
+     return (num * fattorializza(num — 1));
+   }
+
+var result = fattorializza(14);
+   
+console.log(result);
+```
+
+### Ricorsione con ciclo for
+
+```javascript
+function fattorializza(num) {
+  if (num === 0 || num === 1){
+    return 1;
+  }
+  for (var i = num-1; i >= 1; i-- ) {
+     num *= i;
+   }
+ return num;
+}
+console.log(fattorializza(6));
+```
+
 ---
 
 ## Composizione delle funzioni
