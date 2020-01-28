@@ -43,10 +43,9 @@ p+=x;
 * **dati e metodi** sono strettamente collegati: è il concetto di **incapsulamento**, che
 * l'**incapsulamento** permette anche di nascondere l'implementazione interna, utilizzando l'oggetto attraverso l'**interfaccia** pubblica.
 
-### Per esempio, 
-abbiamo un numero e vogliamo raddoppiarlo. 
+### Per esempio: abbiamo un numero e vogliamo raddoppiarlo.
 
-### Nel modo procedurale faremmo:
+Nel modo procedurale possiamo scrivere:
 
 ```java
 n = n * 2
@@ -54,25 +53,19 @@ n = n * 2
 
 **Il codice moltiplica n per 2 e registra il risultato in n.**
 
-### Nella programmmazione orientata agli oggetti
+Nella programmazione orientata agli oggetti si invia un "messaggio" all'oggetto chiamando un metodo per raddoppiare: ```n.raddoppia();```
 
-si invia un "messaggio" all'oggetto chiamando un metodo per raddoppiare:
-
-```java
-n.double();
-```
-
-puoi creare un oggetto di tipo stringa che accetta la chiamata al metodo `double()`, ma lo implementa in maniera differente. 
+Un oggetto di tipo Operazione riceve la chiamata al metodo `raddoppia(<TIPO>)`, riconosce il tipo dell'argomento e richiama il metodo implementato per quel tipo.
 
 ```java
-class Operazioni{
+class Operazione{
 	
 
-	public int double(int n){
+	public int raddoppia(int n){
 		return n * 2;
 	}
 
-	public String double(String s){
+	public String raddoppia(String s){
 		return s+s;
 	}
 
@@ -83,4 +76,51 @@ Il vantaggio di questa tecnica è definito **polimorfismo**.
 
 Se il programma richiede di replicare la procedura su un oggetto di tipo string come "bob", nel modo procedurale occorre invocare una nuova funzione con un codice e un nome differente.
 
-[OOP](005_OOP.md)
+### Esempio: Codice Procedurale vs OOP in PHP
+
+```php
+<?php
+// Procedurale
+function esempio_new() {
+  return array(
+    'vars' => array()
+  );
+}
+
+function esempio_set($esempio, $nome, $valore) {
+  $esempio['vars'][$nome] = $valore;
+  return $esempio;
+}
+
+function esempio_get($esempio, $nome) {
+  $valore = isset($esempio['vars'][$nome]) ? $esempio['vars'][$nome] : null;
+  return array($esempio, $valore);
+}
+
+$esempio = esempio_new();
+$esempio = esempio_set($esempio, 'ciao', 'miao');
+list($esempio, $valore) = esempio_get($esempio, 'ciao');
+
+
+// OOP
+class esempio
+{
+  private $vars = array();
+
+  public function set($nome, $valore)
+  {
+    $this->vars[$nome] = $valore;
+  }
+
+  public function get($nome)
+  {
+    return isset($this->vars[$nome]) ? $this->vars[$nome] : null;
+  }
+}
+
+$esempio = new esempio();
+$esempio->set('ciao', 'miao');
+$valore = $esempio->get('ciao');
+
+?>
+```
