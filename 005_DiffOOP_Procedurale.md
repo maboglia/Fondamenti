@@ -40,7 +40,7 @@ p+=x;
 * Nella programmazione a oggetti, gli oggetti sono l'elemento centrale. 
 * Un oggetto consiste nei **dati** (attributi, proprietà, ...) 
 * e nel codice che opera su tali dati: **metodi** 
-* **dati e metodi** sono strettamente collegati: è il concetto di **incapsulamento**, che
+* **dati e metodi** sono strettamente collegati: è il concetto di **incapsulamento**
 * l'**incapsulamento** permette anche di nascondere l'implementazione interna, utilizzando l'oggetto attraverso l'**interfaccia** pubblica.
 
 ### Per esempio: abbiamo un numero e vogliamo raddoppiarlo.
