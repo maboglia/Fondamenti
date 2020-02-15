@@ -30,5 +30,8 @@ Three-tier architecture ha i seguenti tre livelli:
 
 [wikipedia](https://it.wikipedia.org/wiki/Architettura_multi-tier)
 
-
+## Layered Architecture
 ![Layered Architecture](img/three-tier-layers.png)
+
+## 4 Layers
+![4 Layers Architecture](img/four-Layers-arch.png)
