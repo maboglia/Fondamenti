@@ -29,4 +29,6 @@ Three-tier architecture ha i seguenti tre livelli:
 * Fornendo informazioni del proprio livello inoltre migliora la scalabilità e le prestazioni.
 
 [wikipedia](https://it.wikipedia.org/wiki/Architettura_multi-tier)
-* 
+
+
+![Layered Architecture](img/three-tier-layers.png)
