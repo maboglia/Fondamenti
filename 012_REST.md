@@ -10,6 +10,8 @@ L’approccio proposto prevede che il sistema venga progettato seguendo i seguen
 
 *L’approccio **REST** è **puramente concettuale** e implementabile con qualsiasi tecnologia e protocollo ne permetta di soddisfare i requisiti.*
 
+---
+
 ## REST e http
 
 Un sistema che segue i principi dettati da **REST** viene comunemente definito **REST**ful.
@@ -20,6 +22,8 @@ Un sistema che segue i principi dettati da **REST** viene comunemente definito *
 
 * inoltre ogni sua richiesta può essere completamente indipendente dalle altre e può specificare una determinata operazione (o metodo) da eseguire, rispettando così i principi REST.
 
+---
+
 ## metodi http
 
 I metodi definiti dallo standard HTTP sono utilizzati per indicare al server come manipolare la risorsa:
@@ -27,7 +31,14 @@ I metodi definiti dallo standard HTTP sono utilizzati per indicare al server com
 * **GET**: richiede una risorsa o una funzionalità
 * **POST**: invia al server una nuova risorsa, solitamente per aggiungerla a quelle esistenti e assegnarle un nuovo identificatore
 * **PUT** e PATCH: specificano al server le modifiche da effettuare su una risorsa esistente.
+* **PATCH** Modifica una parte della risorsa già esistente. 
 * **DELETE**: richiede la cancellazione di una risorsa.
+* **TRACE** Restituisce la richiesta così come il server la riceve, al fine di individuare cambiamenti nelle informazioni durante il percorso svolto.
+* **OPTIONS** Mostra una lista dei metodi supportati dal server. 
+* **CONNECT** Invia la richiesta tramite un canale SSL per creare un collegamento con un server proxy. 
+* **HEAD** Richiede solo l’header della relativa risorsa, per verificarne ad esempio la validità. 
+
+---
 
 ## restful api 10 best practices
 
