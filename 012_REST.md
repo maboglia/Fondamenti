@@ -30,7 +30,7 @@ I metodi definiti dallo standard HTTP sono utilizzati per indicare al server com
 
 * **GET**: richiede una risorsa o una funzionalità
 * **POST**: invia al server una nuova risorsa, solitamente per aggiungerla a quelle esistenti e assegnarle un nuovo identificatore
-* **PUT** e PATCH: specificano al server le modifiche da effettuare su una risorsa esistente.
+* **PUT** e **PATCH**: specificano al server le modifiche da effettuare su una risorsa esistente.
 * **PATCH** Modifica una parte della risorsa già esistente. 
 * **DELETE**: richiede la cancellazione di una risorsa.
 * **TRACE** Restituisce la richiesta così come il server la riceve, al fine di individuare cambiamenti nelle informazioni durante il percorso svolto.
