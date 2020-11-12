@@ -4,18 +4,19 @@ Indice che calcola la popolarità dei linguaggi di programmazione
 
 ## TIOBE Programming Community Index Definition
 
-Since there are many questions about the way the TIOBE index is assembled, a special page is devoted to its definition. 
-Basically the calculation comes down to counting hits for the search query
+Poiché ci sono molte domande sul modo in cui è assemblato l'indice TIOBE, una pagina speciale è dedicata alla sua definizione.
+Fondamentalmente il calcolo si riduce al conteggio dei risultati per la query di ricerca:
 
 `+"<language> programming"`
 
 ## Programming Language
 
-In this section it is clarified what counts as a programming language for the TIOBE index. There are 3 requirements that should all hold:
+Come viene considerato un linguaggio di programmazione per l'indice TIOBE. 
+Ci sono 3 requisiti che vengono valutati:
 
-    The language should have an own entry on Wikipedia and Wikipedia should clearly state that it concerns a programming language. This is the reason why (Ruby on) Rails, Excel, Android, Boost, Cocoa, ASP and AJAX are not considered programming languages for the index.
-    The programming language should be Turing complete. As a consequence, HTML and XML are not considered programming languages.
-    The programming language should have at least 5,000 hits for +"<language> programming" for Google.
+La lingua dovrebbe avere una propria voce su Wikipedia e Wikipedia dovrebbe indicare chiaramente che si tratta di un linguaggio di programmazione. Questo è il motivo per cui Ruby on Rails, Excel, Android, Boost, Cocoa, ASP e AJAX non sono considerati linguaggi di programmazione per l'indice TIOBE.
+Il linguaggio di programmazione dovrebbe essere Turing completo. Di conseguenza, HTML e XML non sono considerati linguaggi di programmazione.
 
+Il linguaggio di programmazione dovrebbe avere almeno 5.000 hit per + "<lingua> programmazione" per Google.
 
-[tiobe index](https://www.tiobe.com/tiobe-index/)
+[Indice TIOBE aggiornato](https://www.tiobe.com/tiobe-index/)
