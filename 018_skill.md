@@ -7,107 +7,108 @@
 3. Level 2
 4. Level 3
 
-### data structures
+### strutture dati
 
-1. Doesn’t know the difference between Array and LinkedList
-2. Able to explain and use Arrays, LinkedLists, Dictionaries etc in practical programming tasks
-3. Knows space and time tradeoffs of the basic data structures, Arrays vs LinkedLists, Able to explain how hashtables can be implemented and can handle collisions, Priority queues and ways to implement them etc.
-4. Knowledge of advanced data structures like B-trees, binomial and fibonacci heaps, AVL/Red Black trees, Splay Trees, Skip Lists, tries etc.
+1. Non conosce la differenza tra Array e LinkedList
+2. In grado di spiegare e utilizzare array, elenchi collegati, dizionari ecc. In attività pratiche di programmazione
+3. Conosce i compromessi spaziali e temporali delle strutture dati di base, Arrays vs LinkedLists, è in grado di spiegare come possono essere implementati gli hashtable e può gestire le collisioni, code prioritarie e modi per implementarli ecc.
+4. Conoscenza di strutture dati avanzate come B-tree, cumuli binomiali e di Fibonacci, alberi AVL / Red Black, Splay Trees, Skip List, tentativi ecc.
 
-### algorithms
+### algoritmi
 
-1. Unable to find the average of numbers in an array (It’s hard to believe but I’ve interviewed such candidates)
-2. Basic sorting, searching and data structure traversal and retrieval algorithms
-3. Tree, Graph, simple greedy and divide and conquer algorithms, is able to understand the relevance of the levels of this matrix.
-4. Able to recognize and code dynamic programming solutions, good knowledge of graph algorithms, good knowledge of numerical computation algorithms, able to identify NP problems etc.
+1. Non in grado di trovare la media dei numeri in un array
+2. Algoritmi di base di ordinamento, ricerca e attraversamento della struttura dei dati e recupero
+3. Tree, Graph, semplici algoritmi greedy e divide and conquer, è in grado di comprendere la rilevanza dei livelli di questa matrice.
+4. In grado di riconoscere e codificare soluzioni di programmazione dinamica, buona conoscenza di algoritmi grafici, buona conoscenza di algoritmi di calcolo numerico, in grado di identificare problemi NP ecc.
 
-### systems programming
+### programmazione dei sistemi
 
-1. Doesn’t know what a compiler, linker or interpreter is
-2. Basic understanding of compilers, linker and interpreters. Understands what assembly code is and how things work at the hardware level. Some knowledge of virtual memory and paging.
-3. Understands kernel mode vs. user mode, multi-threading, synchronization primitives and how they’re implemented, able to read assembly code. Understands how networks work, understanding of network protocols and socket level programming.
-4. Understands the entire programming stack, hardware (CPU + Memory + Cache + Interrupts + microcode), binary code, assembly, static and dynamic linking, compilation, interpretation, JIT compilation, garbage collection, heap, stack, memory addressing…
+1. Non sa cosa sia un compilatore, un linker o un interprete
+2. Conoscenza di base di compilatori, linker e interpreti. Comprende cos'è il codice assembly e come funzionano le cose a livello hardware. Qualche conoscenza di memoria virtuale e paging.
+3. Comprende la modalità kernel e la modalità utente, il multi-threading, le primitive di sincronizzazione e il modo in cui sono implementate, in grado di leggere il codice assembly. Comprende il funzionamento delle reti, la comprensione dei protocolli di rete e la programmazione a livello di socket.
+4. Comprende l'intero stack di programmazione, hardware (CPU + memoria + cache + interrupt + microcodice), codice binario, assembly, collegamento statico e dinamico, compilazione, interpretazione, compilazione JIT, garbage collection, heap, stack, indirizzamento della memoria ...
 
-## Software Engineering
+## Ingegneria software
 
-### source code version control
+### controllo della versione del codice sorgente
 
-1. Folder backups by date
-2. VSS and beginning CVS/SVN user
-3. Proficient in using CVS and SVN features. Knows how to branch and merge, use patches setup repository properties etc.
-4. Knowledge of distributed VCS systems. Has tried out Bzr/Mercurial/Darcs/Git
+1. Backup delle cartelle per data
+2. VSS e utente CVS / SVN iniziale
+3. Competente nell'uso delle funzionalità CVS e SVN. Sa come ramificare e unire, utilizzare le proprietà del repository di configurazione delle patch, ecc.
+4. Conoscenza dei sistemi VCS distribuiti. Ha provato Bzr / Mercurial / Darcs / Git
 
 ### build automation
 
-1. Only knows how to build from IDE
-2. Knows how to build the system from the command line
-3. Can setup a script to build the basic system
-4. Can setup a script to build the system and also documentation, installers, generate release notes and tag the code in source control
+1. Sa solo come *buildare* da IDE
+2. Sa come costruire il sistema dalla riga di comando
+3. Può impostare uno script per costruire il sistema di base
+4. Può impostare uno script per costruire il sistema e anche documentazione, programmi di installazione, generare note di rilascio e contrassegnare il codice nel controllo del codice sorgente
 
-### automated testing
+### test automatizzati
 
-1. Thinks that all testing is the job of the tester
-2. Has written automated unit tests and comes up with good unit test cases for the code that is being written
-3. Has written code in TDD manner
-4. Understands and is able to setup automated functional, load/performance and UI tests
+1. Pensa che tutti i test siano compito del tester
+2. Ha scritto unit test automatizzati e fornisce buoni casi di unit test per il codice che viene scritto
+3. Ha scritto codice in modo TDD
+4. Comprende ed è in grado di impostare test funzionali, carico / prestazioni e UI automatizzati
 
-## Programming
+## Programmazione
 
-### problem decomposition
+### scomposizione del problema
 
-1. Only straight line code with copy paste for reuse
-2. Able to break up problem into multiple functions
-3. Able to come up with reusable functions/objects that solve the overall problem
-4. Use of appropriate data structures and algorithms and comes up with generic/object-oriented code that encapsulate aspects of the problem that are subject to change.
+1. Solo codice lineare con copia incolla per il riutilizzo
+2. In grado di suddividere il problema in più funzioni
+3. In grado di elaborare funzioni / oggetti riutilizzabili che risolvono il problema generale
+4. Utilizzo di strutture e algoritmi di dati appropriati e produzione di codice generico / orientato agli oggetti che incapsula aspetti del problema soggetti a modifiche.
+
 
 ### systems decomposition
 
-1. Not able to think above the level of a single file/class
-2. Able to break up problem space and design solution as long as it is within the same platform/technology
-3. Able to design systems that span multiple technologies/platforms.
-4. Able to visualize and design complex systems with multiple product lines and integrations with external systems. Also should be able to design operations support systems like monitoring, reporting, fail overs etc.
+1. Non in grado di pensare al di sopra del livello di un singolo file / classe
+2. In grado di suddividere lo spazio problematico e la soluzione di progettazione fintanto che si trova all'interno della stessa piattaforma / tecnologia
+3. In grado di progettare sistemi che abbracciano più tecnologie / piattaforme.
+4. In grado di visualizzare e progettare sistemi complessi con più linee di prodotti e integrazioni con sistemi esterni. Inoltre dovrebbe essere in grado di progettare sistemi di supporto alle operazioni come monitoraggio, reporting, failover ecc.
 
-### communication
+### comunicazione
 
-1. Cannot express thoughts/ideas to peers. Poor spelling and grammar.
-2. Peers can understand what is being said. Good spelling and grammar.
-3. Is able to effectively communicate with peers
-4. Able to understand and communicate thoughts/design/ideas/specs in a unambiguous manner and adjusts communication as per the context
+1. Non è in grado di esprimere pensieri / idee ai colleghi. Ortografia e grammatica scadenti.
+2. I colleghi possono capire cosa viene detto. Buona ortografia e grammatica.
+3. È in grado di comunicare efficacemente con i colleghi
+4. In grado di comprendere e comunicare pensieri / progetti / idee / specifiche in modo inequivocabile e adattare la comunicazione al contesto
 
-### code organization within a file
+### organizzazione del codice all'interno di un file
 
-1. no evidence of organization within a file
-2. Methods are grouped logically or by accessibility
-3. Code is grouped into regions and well commented with references to other source files
-4. File has license header, summary, well commented, consistent white space usage. The file should look beautiful.
+1. nessuna prova di organizzazione all'interno di un file
+2. I metodi sono raggruppati logicamente o per accessibilità
+3. Il codice è raggruppato in regioni e ben commentato con riferimenti ad altri file di origine
+4. Il file ha intestazione della licenza, riepilogo, utilizzo dello spazio vuoto ben commentato e coerente. Il file dovrebbe essere bellissimo.
 
-### code organization across files
+### organizzazione del codice tra i file
 
-1. No thought given to organizing code across files
-2. Related files are grouped into a folder
-3. Each physical file has a unique purpose, for e.g. one class definition, one feature implementation etc.
-4. Code organization at a physical level closely matches design and looking at file names and folder distribution provides insights into design
+1. Nessun pensiero dato all'organizzazione del codice tra i file
+2. I file correlati sono raggruppati in una cartella
+3. Ogni file fisico ha uno scopo unico, ad es. una definizione di classe, un'implementazione di una caratteristica ecc.
+4. L'organizzazione del codice a livello fisico è strettamente correlata al design e l'analisi dei nomi dei file e della distribuzione delle cartelle fornisce approfondimenti sulla progettazione
 
-### source tree organization
+### organizzazione dell'albero dei sorgenti
 
-1. Everything in one folder
-2. Basic separation of code into logical folders.
-3. No circular dependencies, binaries, libs, docs, builds, third-party code all organized into appropriate folders
-4. Physical layout of source tree matches logical hierarchy and organization. The directory names and organization provide insights into the design of the system.
+1. Tutto in una cartella
+2. Separazione di base del codice in cartelle logiche.
+3. Nessuna dipendenza circolare, binari, librerie, documenti, build, codice di terze parti, tutto organizzato in cartelle appropriate
+4. Il layout fisico dell'albero di origine corrisponde alla gerarchia logica e all'organizzazione. I nomi delle directory e l'organizzazione forniscono informazioni sulla progettazione del sistema.
 
-### code readability
+### leggibilità del codice
 
-1. Mono-syllable names
-2. Good names for files, variables classes, methods etc.
-3. No long functions, comments explaining unusual code, bug fixes, code assumptions
-4. Code assumptions are verified using asserts, code flows naturally – no deep nesting of conditionals or methods
+1. Nomi mono-sillabe
+2. Buoni nomi per file, classi di variabili, metodi ecc.
+3. Nessuna funzione lunga, commenti che spiegano codice insolito, correzioni di bug, presupposti del codice
+4. Le ipotesi del codice vengono verificate utilizzando assert, il codice scorre in modo naturale - nessuna nidificazione profonda di condizionali o metodi
 
 ### defensive coding
 
-1. Doesn’t understand the concept
-2. Checks all arguments and asserts critical assumptions in code
-3. Makes sure to check return values and check for exceptions around code that can fail.
-4. Has his own library to help with defensive coding, writes unit tests that simulate faults
+1. Non capisce il concetto
+2. Controlla tutti gli argomenti e asserisce i presupposti critici nel codice
+3. Si assicura di controllare i valori di ritorno e controllare le eccezioni intorno al codice che può non riuscire.
+4. Ha la sua libreria per aiutare con la codifica difensiva, scrive unit test che simulano i guasti
 
 
 ### error handling
@@ -117,125 +118,135 @@
 3. Ensures that error/exceptions leave program in good state, resources, connections and memory is all cleaned up properly
 4. Codes to detect possible exception before, maintain consistent exception handling strategy in all layers of code, come up with guidelines on exception handling for entire system.
 
+### gestione degli errori
+
+1. Codifica solo *happy case*
+2. Gestione degli errori di base intorno al codice che può generare eccezioni / generare errori
+3. Assicura che errori / eccezioni lascino il programma in buono stato, le risorse, le connessioni e la memoria siano tutte pulite correttamente
+4. Codici per rilevare prima possibili eccezioni, mantenere una strategia di gestione delle eccezioni coerente in tutti i livelli di codice, elaborare linee guida sulla gestione delle eccezioni per l'intero sistema.
+
 ### IDE
 
-1. Mostly uses IDE for text editing
-2. Knows their way around the interface, able to effectively use the IDE using menus.
-3. Knows keyboard shortcuts for most used operations.
-4. Has written custom macros
+1. Utilizza principalmente IDE per la modifica del testo
+2. Conosce l'interfaccia, è in grado di utilizzare efficacemente l'IDE utilizzando i menu.
+3. Conosce le scorciatoie da tastiera per le operazioni più utilizzate.
+4. Ha scritto macro personalizzate
 
 ### API
 
-1. Needs to look up the documentation frequently
-2. Has the most frequently used APIs in memory
-3. Vast and In-depth knowledge of the API
-4. Has written libraries that sit on top of the API to simplify frequently used tasks and to fill in gaps in the API
+1. Ha bisogno di cercare frequentemente la documentazione
+2. Ha in memoria le API utilizzate più di frequente
+3. Conoscenza ampia e approfondita dell'API
+4. Ha scritto librerie che si trovano in cima all'API per semplificare le attività usate di frequente e per colmare le lacune nell'API
 
-### frameworks
+### framework
 
-1. Has not used any framework outside of the core platform
-2. Has heard about but not used the popular frameworks available for the platform.
-3. Has used more than one framework in a professional capacity and is well-versed with the idioms of the frameworks.
-4. Author of framework
+1. Non ha utilizzato alcun framework al di fuori della piattaforma principale
+2. Ha sentito parlare ma non ha utilizzato i framework popolari disponibili per la piattaforma.
+3. Ha utilizzato più di un framework a titolo professionale ed è esperto con gli idiomi dei framework.
+4. Autore del framework
 
 ### requirements
 
-1. Takes the given requirements and codes to spec
-2. Come up with questions regarding missed cases in the spec
-3. Understand complete picture and come up with entire areas that need to be speced
-4. Able to suggest better alternatives and flows to given requirements based on experience
+1. Accetta i requisiti e i codici forniti secondo le specifiche
+2. Pone domande sui casi non considerati nelle specifiche
+3. Comprendere il quadro completo e individuare intere aree che devono essere specificate
+4. In grado di suggerire alternative e flussi migliori a determinati requisiti sulla base dell'esperienza
 
 ### scripting
 
-1. No knowledge of scripting tools
-2. Batch files/shell scripts
-3. Perl/Python/Ruby/VBScript/Powershell
-4. Has written and published reusable code
+1. Nessuna conoscenza degli strumenti di scripting
+2. File batch / script di shell
+3. Perl / Python / Ruby / VBScript / Powershell
+4. Ha scritto e pubblicato codice riutilizzabile
 
 ### database
 
-1. Thinks that Excel is a database
-2. Knows basic database concepts, normalization, ACID, transactions and can write simple selects
-3. Able to design good and normalized database schemas keeping in mind the queries that’ll have to be run, proficient in use of views, stored procedures, triggers and user defined types. Knows difference between clustered and non-clustered indexes. Proficient in use of ORM tools.
-4. Can do basic database administration, performance optimization, index optimization, write advanced select queries, able to replace cursor usage with relational sql, understands how data is stored internally, understands how indexes are stored internally, understands how databases can be mirrored, replicated etc. Understands how the two phase commit works.
+1. Pensa che Excel sia un database
+2. Conosce i concetti di base del database, la normalizzazione, l'ACID, le transazioni e sa scrivere selezioni semplici
+3. In grado di progettare schemi di database validi e normalizzati tenendo presente le query che devono essere eseguite, esperto nell'uso di viste, stored procedure, trigger e tipi definiti dall'utente. Conosce la differenza tra indici cluster e non cluster. Competente nell'uso degli strumenti ORM.
+4. Può eseguire l'amministrazione di base del database, l'ottimizzazione delle prestazioni, l'ottimizzazione degli indici, scrivere query di selezione avanzate, è in grado di sostituire l'utilizzo del cursore con sql relazionale, comprende come i dati vengono archiviati internamente, comprende come gli indici vengono archiviati internamente, comprende come i database possono essere specchiati, replicati ecc. Capisce come funziona il commit in due fasi.
 
-## Experience
+## Esperienza
 
-### languages with professional experience
+### lingue con esperienza professionale
 
-1. Imperative or Object Oriented
-2. Imperative, Object-Oriented and declarative (SQL), added bonus if they understand static vs dynamic typing, weak vs strong typing and static inferred types
-3. Functional, added bonus if they understand lazy evaluation, currying, continuations
-4. Concurrent (Erlang, Oz) and Logic (Prolog)
+1. Imperativo o orientato agli oggetti
+2. Imperativo, orientato agli oggetti e dichiarativo (SQL), bonus aggiuntivo se comprendono la digitazione statica rispetto a quella dinamica, la digitazione debole o forte e i tipi inferiti statici
+3. Funzionale, ulteriore vantaggio se capiscono la valutazione pigra, il curry, le continuazioni
+4. Concorrente (Erlang, Oz) e Logic (Prolog)
 
-### platforms with professional experience
+### piattaforme con esperienza professionale
 
 1. 1
 2. 2-3
 3. 4-5
 4. 6+
 
-### years of professional experience
+### anni di esperienza professionale
 
 1. 1
 2. 2-5
 3. 6-9
 4. 10+
 
-### domain knowledge
+### conoscenza del dominio
 
-1. No knowledge of the domain
-2. Has worked on at least one product in the domain.
-3. Has worked on multiple products in the same domain.
-4. Domain expert. Has designed and implemented several products/solutions in the domain. Well versed with standard terms, protocols used in the domain.
+1. Nessuna conoscenza del dominio
+2. Ha lavorato su almeno un prodotto nel dominio.
+3. Ha lavorato su più prodotti nello stesso dominio.
+4. Esperto di dominio. Ha progettato e implementato diversi prodotti / soluzioni nel dominio. Esperto con termini standard, protocolli utilizzati nel dominio.
 
-## Knowledge
 
-### tool knowledge
+---
+## Conoscenza
 
-1. Limited to primary IDE (VS.Net, Eclipse etc.)
-2. Knows about some alternatives to popular and standard tools.
-3. Good knowledge of editors, debuggers, IDEs, open source alternatives etc. etc. For e.g. someone who knows most of the tools from Scott Hanselman’s power tools list. Has used ORM tools.
-4. Has actually written tools and scripts, added bonus if they’ve been published.
+### conoscenza degli strumenti
 
-### languages exposed to
+1. Limitato all'IDE principale (VS.Net, Eclipse ecc.)
+2. Conosce alcune alternative agli strumenti comuni e standard.
+3. Buona conoscenza di editor, debugger, IDE, alternative open source ecc. Ha utilizzato strumenti ORM.
+4. Ha effettivamente scritto strumenti e script, un ulteriore vantaggio se sono stati pubblicati.
 
-1. Imperative or Object Oriented
-2. Imperative, Object-Oriented and declarative (SQL), added bonus if they understand static vs dynamic typing, weak vs strong typing and static inferred types
-3. Functional, added bonus if they understand lazy evaluation, currying, continuations
-4. Concurrent (Erlang, Oz) and Logic (Prolog)
+### esperienza dei linguaggi
+
+1. Imperativo o orientato agli oggetti
+2. Imperativo, orientato agli oggetti e dichiarativo (SQL), bonus aggiuntivo se comprendono la digitazione statica rispetto a quella dinamica, la digitazione debole o forte e i tipi inferiti statici
+3. Funzionale, ulteriore vantaggio se capiscono la valutazione pigra, il curry, le continuazioni
+4. Concurrent (Erlang, Oz) e Logic (Prolog)
+
 
 ### codebase knowledge
 
-1. Has never looked at the codebase
-2. Basic knowledge of the code layout and how to build the system
-3. Good working knowledge of code base, has implemented several bug fixes and maybe some small features.
-4. Has implemented multiple big features in the codebase and can easily visualize the changes required for most features or bug fixes.
+1. Non ha mai esaminato il codice base
+2. Conoscenza di base del layout del codice e di come costruire il sistema
+3. Buona conoscenza del codice di base, ha implementato diverse correzioni di bug e forse alcune piccole funzionalità.
+4. Ha implementato più grandi funzionalità nella codebase e può facilmente visualizzare le modifiche richieste per la maggior parte delle funzionalità o le correzioni di bug.
 
-### knowledge of upcoming technologies
+### conoscenza delle prossime tecnologie
 
-1. Has not heard of the upcoming technologies
-2. Has heard of upcoming technologies in the field
-3. Has downloaded the alpha preview/CTP/beta and read some articles/manuals
-4. Has played with the previews and has actually built something with it and as a bonus shared that with everyone else
+1. Non ha sentito parlare delle prossime tecnologie
+2. Ha sentito parlare delle imminenti tecnologie nel campo
+3. Ha scaricato l'anteprima alpha / CTP / beta e ha letto alcuni articoli / manuali
+4. Ha giocato con le anteprime e ha effettivamente costruito qualcosa con esso e come bonus lo ha condiviso con tutti gli altri
 
 ### platform internals
 
-1. Zero knowledge of platform internals
-2. Has basic knowledge of how the platform works internally
-3. Deep knowledge of platform internals and can visualize how the platform takes the program and converts it into executable code.
-4. Has written tools to enhance or provide information on platform internals. For e.g. disassemblers, decompilers, debuggers etc.
+1. Nessuna conoscenza degli interni della piattaforma
+2. Ha una conoscenza di base del funzionamento interno della piattaforma
+3. Conoscenza approfondita degli interni della piattaforma e possibilità di visualizzare come la piattaforma prende il programma e lo converte in codice eseguibile.
+4. Ha scritto strumenti per migliorare o fornire informazioni sugli interni della piattaforma. Ad esempio disassemblatori, decompilatori, debugger ecc.
 
-### books
+### libri di settore
 
-1. Unleashed series, 21 days series, 24 hour series, dummies series…
-2. Code Complete, Don’t Make me Think, Mastering Regular Expressions
+1. Serie Unleashed, serie di 21 giorni, serie di 24 ore, serie di manichini ...
+2. Codice completo, non farmi pensare, padronanza delle espressioni regolari
 3. Design Patterns, Peopleware, Programming Pearls, Algorithm Design Manual, Pragmatic Programmer, Mythical Man month
-4. Structure and Interpretation of Computer Programs, Concepts Techniques, Models of Computer Programming, Art of Computer Programming, Database systems , [Thinking Forth](http://thinking-forth.sourceforge.net/), [Little Schemer](https://7chan.org/pr/src/The_Little_Schemer_4th_2.pdf)
+4. Struttura e interpretazione di programmi per computer, concetti tecnici, modelli di programmazione per computer, arte della programmazione per computer, sistemi di database, [Thinking Forth] (http://thinking-forth.sourceforge.net/), [Little Schemer] (https : //7chan.org/pr/src/The_Little_Schemer_4th_2.pdf)
 
-### blogs
+### blog di settore
 
-1. Has heard of them but never got the time.
-2. Reads tech/programming/software engineering blogs and listens to podcasts regularly.
-3. Maintains a link blog with some collection of useful articles and tools that he/she has collected
-4. Maintains a blog in which personal insights and thoughts on programming are shared
+1. Ne ha sentito parlare ma non ne ha mai avuto il tempo.
+2. Legge blog di tecnologia / programmazione / ingegneria del software e ascolta regolarmente i podcast.
+3. Mantiene un blog di collegamento con una raccolta di articoli e strumenti utili che ha raccolto
+4. Mantiene un blog in cui vengono condivise intuizioni personali e pensieri sulla programmazione

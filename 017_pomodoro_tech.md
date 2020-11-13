@@ -3,16 +3,16 @@
 
 ![A Pomodoro kitchen timer, after which the method is named](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Il_pomodoro.jpg/220px-Il_pomodoro.jpg)
 
-The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s.[1] The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. These intervals are named pomodoros, the plural in English of the Italian word pomodoro (tomato), after the tomato-shaped kitchen timer that Cirillo used as a university student.[2][3]
+La Pomodoro Technique è un metodo di gestione del tempo sviluppato da Francesco Cirillo alla fine degli anni '80. La tecnica utilizza un timer per suddividere il lavoro in intervalli, tradizionalmente di 25 minuti, separati da brevi pause. Questi intervalli sono chiamati pomodoros, il plurale in inglese della parola italiana pomodoro (pomodoro), dal nome del timer da cucina a forma di pomodoro che Cirillo usava da studente universitario.
 
-The technique has been widely popularized by dozens of apps and websites providing timers and instructions. Closely related to concepts such as timeboxing and iterative and incremental development used in software design, the method has been adopted in pair programming contexts.[4]
-Contents
+La tecnica è stata ampiamente diffusa da dozzine di app e siti Web che forniscono timer e istruzioni. Strettamente correlato a concetti come il timeboxing e lo sviluppo iterativo e incrementale utilizzati nella progettazione del software, il metodo è stato adottato in contesti di programmazione in gruppo.
 
-There are six steps in the original technique:
 
-* Decide on the task to be done.
-* Set the pomodoro timer (traditionally to 25 minutes).[1]
-* Work on the task.
-* End work when the timer rings and put a checkmark on a piece of paper.[5]
-* If you have fewer than four checkmarks, take a short break (3–5 minutes), then go to step 2.
-* After four pomodoros, take a longer break (15–30 minutes), reset your checkmark count to zero, then go to step 1.
+# Ci sono sei passaggi nella tecnica originale:
+
+1. Decidi l'attività da svolgere.
+2. Imposta il timer pomodoro (tradizionalmente a 25 minuti).
+3. Lavora sul compito.
+4. Termina il lavoro quando suona il timer e metti un segno di spunta su un pezzo di carta.
+5. Se hai meno di quattro segni di spunta, fai una breve pausa (3–5 minuti), quindi vai al passaggio 2.
+6. Dopo quattro pomodorini, fai una pausa più lunga (15-30 minuti), azzera il conteggio del segno di spunta, quindi vai al passaggio 1.

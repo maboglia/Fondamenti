@@ -1,4 +1,4 @@
-Elementi base della configurazione di Apache
+# Elementi base della configurazione di Apache
 
 ## I container
 Apache prevede una serie di direttive chiamate container, che identificano un certo gruppo di risorse (file, directory ecc.) relativamente alle quali vengono attivate determinate direttive di configurazione.

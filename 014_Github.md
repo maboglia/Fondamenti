@@ -1,6 +1,6 @@
 # GitHub
 
-GitHub provides a platform to share an entire project as a repo among a team(private repo) or to the whole world(public repo).
+GitHub fornisce una piattaforma per condividere un intero progetto come repo tra un team (repo privato) o con tutto il mondo (repo pubblico, come questo!).
 
 ![git logo](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/github.png)
 ![git versioning](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/git_versioning.png)
@@ -13,5 +13,5 @@ GitHub provides a platform to share an entire project as a repo among a team(pri
 
 ## gist
 
-Gist is a simple way to share snippets and pastes with others.
-A gist is for a piece of code (usually unconnected to other code), like for discussing or giving examples.
+Gist è un modo semplice per condividere frammenti e paste con gli altri.
+Una sintesi è per un pezzo di codice (di solito non connesso ad altro codice), come per discutere o fornire esempi.

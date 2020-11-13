@@ -11,31 +11,31 @@ Nel modello client-server, il client viene generalmente considerato il front-end
 
 ### Entrambi 
 
-* Version control tools such as GitHub, SourceForge, or Mercurial
-* File transfer tools and protocols such as FTP or rsync
+* Strumenti di controllo della versione come GitHub, SourceForge o Mercurial
+* Strumenti e protocolli di trasferimento file come FTP o rsync
 
 ### Front-end focused
 
-* Markup and web languages such as HTML, CSS, JavaScript, and ancillary libraries commonly used in those languages such as Sass or JQuery
-* Asynchronous request handling and AJAX
-* Single-page applications (with frameworks like React, AngularJS or Vue.js)
-* Web performance (first meaningful paint, time to interactive, 60 FPS animations and interactions, memory usage, etc)
-* Responsive web design
-* Cross-browser compatibility issues and workarounds
-* End-to-end testing with a headless browser
-* Build automation to transform and bundle JavaScript files, reduce images size... with tools like Webpack or Gulp.js
-* Search engine optimization
-* Accessibility concerns
-* Basic usage of image editing tools such as GIMP or Photoshop
+* Markup e linguaggi web come HTML, CSS, JavaScript e librerie ausiliarie comunemente utilizzate in quei linguaggi come Sass o JQuery
+* Gestione delle richieste asincrone e AJAX
+* Applicazioni a pagina singola (con framework come React, AngularJS o Vue.js)
+* Prestazioni Web (prima immagine significativa, tempo per l'interazione, animazioni e interazioni a 60 FPS, utilizzo della memoria, ecc.)
+* Web design reattivo
+* Problemi di compatibilità tra browser e soluzioni alternative
+* Test end-to-end con un browser headless
+* Crea automazione per trasformare e raggruppare file JavaScript, ridurre le dimensioni delle immagini ... con strumenti come Webpack o Gulp.js
+* Ottimizzazione del motore di ricerca
+* Problemi di accessibilità
+* Utilizzo di base di strumenti di modifica delle immagini come GIMP o Photoshop
 
 ### Back-end focused
 
-* Scripting languages like Node.js, PHP, Python, Ruby, or Perl or Compiled languages like C#, Java or Go,
-* Automated testing frameworks for the language being used
-* Application Data Access
-* Application Business Logic
-* Database administration
-* Scalability
-* Security concerns, authentication and authorization
-* Data transformation
-* Backup methods and software
+* Scripting languages come Node.js, PHP, Python, Ruby, or Perl or Compiled languages like C#, Java,  Go, ...
+* Framework di test automatizzati per il linguaggio utilizzato
+* Accesso ai dati dell'applicazione
+* Logica aziendale dell'applicazione
+* Amministrazione del database
+* Scalabilità
+* Problemi di sicurezza, autenticazione e autorizzazione
+* Trasformazione dei dati
+* Metodi e software di backup
