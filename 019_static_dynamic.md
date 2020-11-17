@@ -1,5 +1,5 @@
 # static vs dynamic web pages
-ciao
+
 ## static
 ![static](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/static_web_pages.png)
 
