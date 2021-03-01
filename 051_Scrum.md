@@ -10,24 +10,25 @@ AGILE != waterfall
 ---
 
 * controllo empirico dei processi
-* trasparenza: 
-* ispezione
-* adattamento
+* trasparenza: mostrare tutti gli aspetti del lavoro
+* ispezione: frequente controllo del prodotto
+* adattamento: capacità di rispondere tempestivamente alla mutate condizioni
 
 ---
 
 ## Ruoli
 
-Scrum team
-* **Scrum Master**: responsabile del processo
-* **Product owner**: conosce tutti i requisiti del prodotto, organizza ordine lavori
-* **Team di sviluppo**: gruppo cross-funzionale auto-organizzato
+**Scrum team**
+
+* **Scrum Master**: responsabile del processo (_servant leader_), favorisce il lavoro del team rimuovendo gli ostacoli
+* **Product owner**: conosce tutti i requisiti del prodotto, organizza ordine lavori. Definisce il lavoro
+* **Team di sviluppo**: gruppo cross-funzionale auto-organizzato, da 3 a 9 persone, Coloro che **concretamente** portano a termine gli Sprint. Ogni membro **è responsabile** dell'intero sviluppo
 
 ---
 
 ## Artifacts
 
-* **Product backlog**: lista di tutti i requisiti
+* **Product backlog**: lista di tutti i requisiti, elementi che servono nel prodotto
 * **Sprint backlog**: lista dei task di ciascuno sprint
 * **Incremento**: somma deggli elementi completati
 
@@ -58,3 +59,40 @@ Scrum team
 * pianificazione migliore
 * allineamento con il business
 * soluzione problemi migliore
+
+---
+
+## Product backlog
+
+* **User story**: le singole voci del **PB**, brevi e semplici descrizioni di una funzionalità (dal punto di vista dell'utente/cliente)
+* `In qualità di <tipo>, voglio <obiettivo>, in modo da <motivo>` 
+* **Epic**: User story particolarmente complessa e generica
+
+---
+
+## Sprint backlog
+
+* **Sprint goal**: si definisce l'obiettivo dello sprint
+* cioè il lavoro che deve essere fatto
+* in continua evoluzione
+* ogni giorno si tiene traccia del lavoro svolto e di quello che si deve ancora fare
+* aggiungere o eliminare task
+
+--- 
+
+## Incremento
+
+* la somma di tutte le funzionalità completate in uno sprint
+* **Definition of done**: definire cosa si intende per '**fatto**' (_done_)
+
+---
+
+## Sprint
+
+* durata 2/4 settimane per realizzare un mini progetto che rappresenta un **incremento**
+* durata fissa: si conclude anche se non ho portato a termine tutti gli obiettivi
+* **eventi**
+  * sprint planning
+  * daily scrum
+  * sprint review
+  * sprint retrospective
