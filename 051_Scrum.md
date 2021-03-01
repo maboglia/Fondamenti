@@ -30,7 +30,7 @@ AGILE != waterfall
 
 * **Product backlog**: lista di tutti i requisiti, elementi che servono nel prodotto
 * **Sprint backlog**: lista dei task di ciascuno sprint
-* **Incremento**: somma deggli elementi completati
+* **Incremento**: somma degli elementi completati
 
 ---
 
