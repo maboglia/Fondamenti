@@ -1,6 +1,6 @@
 # Programmazione ad oggetti vs funzionale
 
-Funcional Programming|Object Oriented Programming
+Functional Programming|Object Oriented Programming
 ---|---
 FP utilizza dati immutabili.|OOP utilizza dati mutabili.
 Segue il modello basato sulla programmazione dichiarativa.|Segue il modello di programmazione imperativo.
