@@ -6,49 +6,58 @@ Metacaratteri delle espressioni regolari
 
 * Caratteri jolly
 
-    * . 	Corrisponde a: qualsiasi carattere singolo (lettera, numero o simbolo) 	
-        * \1. corrisponde a: 10, 1A
-        * 1.1 corrisponde a: 111, 1A1
+    * `.` 	Corrisponde a: qualsiasi carattere singolo (lettera, numero o simbolo) 	
+        * `1.` corrisponde a: 10, 1A
+        * `1.1` corrisponde a: 111, 1A1
 
-    * ? 	Corrisponde a: 0 o 1 volte/a il carattere che lo precede 	
-    * 10? corrisponde a: 1, 10
+    * `?` 	Corrisponde a: 0 o 1 volte/a il carattere che lo precede 	
+    * `10?` corrisponde a: 1, 10
 
-        * \+ 	Corrisponde a: 1 o più volte il carattere che lo precede 	
-        * 10+ corrisponde a: 10, 100
+        * `+` 	Corrisponde a: 1 o più volte il carattere che lo precede 	
+        * `10+` corrisponde a: 10, 100
 
-        * \* Corrisponde a: 0 o più volte il carattere che lo precede 	
-        * 1* corrisponde a: 1, 10
+        * `*` Corrisponde a: 0 o più volte il carattere che lo precede 	
+        * `1*` corrisponde a: 1, 10
 
-* | 	Crea una corrispondenza O
+* `|` 	Crea una corrispondenza or (or logico, oppure)
     * Non utilizzare alla fine di un'espressione 	
-    * 1|10 corrisponde a: 1, 10
+    * `1|10` corrisponde a: 1, 10
+
+---
+
 
 * Anchor
-    * ^ Corrisponde ai: caratteri adiacenti all'inizio di una stringa 	
-    * ^10 corrisponde a: 10, 100, 10x
+    * `^` Corrisponde ai: caratteri adiacenti all'inizio di una stringa 	
+    * `^10` corrisponde a: 10, 100, 10x
 
     * ^10 non corrisponde a: 110, 110x
-        * $ Corrisponde ai: caratteri adiacenti alla fine di una stringa 	
-        * 10$ corrisponde a: 110, 1010
-        * 10$ non corrisponde a: 100, 10x
+        * `$` Corrisponde ai: caratteri adiacenti alla fine di una stringa 	
+        * `10$` corrisponde a: 110, 1010
+        * `10$` non corrisponde a: 100, 10x
 
 * Gruppi
-    * ( ) Corrisponde ai: caratteri racchiusi nell'esatto ordine in qualsiasi punto di una stringa
+    * `( )` Corrisponde ai: caratteri racchiusi nell'esatto ordine in qualsiasi punto di una stringa
     * Utilizzato anche per raggruppare altre espressioni 	(10) corrisponde a: 10, 101, 1011
-    * ([0-9]|[a-z]) corrisponde a: qualunque numero o lettera minuscola
-    * [ ] 	Corrisponde ai: caratteri racchiusi in qualsiasi ordine in qualsiasi punto di una stringa 	
-    * [10] corrisponde a: 012, 123, 202, 120, 210
-    * \- 	Crea un intervallo di caratteri tra parentesi che corrisponda in qualsiasi punto di una stringa 	[0-9] corrisponde a: tutti i numeri da 0 a 9
+    * `([0-9]|[a-z])` corrisponde a: qualunque numero o lettera minuscola
+    * `[ ]` 	Corrisponde ai: caratteri racchiusi in qualsiasi ordine in qualsiasi punto di una stringa 	
+    * `[10]` corrisponde a: 012, 123, 202, 120, 210
+    * `-` 	Crea un intervallo di caratteri tra parentesi che corrisponda in qualsiasi punto di una stringa 	[0-9] corrisponde a: tutti i numeri da 0 a 9
 
-* Esc \
+---
+
+
+* Esc `\`
 * Indica che il carattere adiacente deve essere interpretato letteralmente invece che un metacarattere dell'espressione regolare 	
-* \. indica che il punto adiacente deve essere interpretato come un punto o una virgola invece che un carattere jolly.
+* `\.` indica che il punto adiacente deve essere interpretato come un punto o una virgola invece che un carattere jolly.
 * 216\.239\.32\.34 corrisponde a: 216.239.32.34
 
-Parentesi ( ) e barra verticale |
-Parentesi ( )
+Parentesi `( )` e barra verticale `|`
+Parentesi `( )`
 
 Utilizza le parentesi per raggruppare insieme le parti di un'espressione.
+
+---
+
 
 Ad esempio, se devi abbinare un insieme di caratteri che compaiono in una serie di diversi SKU di prodotti, puoi raggruppare questi caratteri insieme tra parentesi. Supponiamo che tu venda dei sandali da spiaggia da uomo e da donna e che gli SKU dei prodotti abbiano questo aspetto:
 
@@ -65,7 +74,9 @@ Per comprendere tutti gli SKU dei sandali da spiaggia, potresti creare la seguen
     \d (carattere numerico)
     + (una o più volte)
 
-Barra verticale |
+---
+
+## Barra verticale |
 
 Utilizza la barra verticale per creare una condizione OR in un'espressione.
 
@@ -103,6 +114,8 @@ Utilizza le parentesi quadre per creare un set di caratteri da abbinare.
 * PART23
 * PART123
 
+---
+
 ## Trattino -
 
 Utilizza il trattino insieme alle parentesi quadre per creare una corrispondenza di un intervallo di caratteri.
@@ -116,6 +129,8 @@ Se volevi una corrispondenza di tutto quanto indicato in precedenza, avresti pot
 * [A-Z]+[0-9]+
   * [A-Z] (corrisponde a: tutte le lettere maiuscole) + (una o più volte)
   * [0-9] (corrisponde a: tutte le cifre) + (una o più volte)
+
+---
 
 ## Punto interrogativo (?), segno più (+), asterisco (*)
 
@@ -137,6 +152,7 @@ Abbina un indirizzo IP con 1 o 2 cifre nell'ultima sezione.
 
 Questo esempio utilizza la barra inversa per evitare il punto e utilizza \d per corrispondere a qualsiasi cifra.
 
+---
 
 ## Segno più (+)
 
@@ -160,7 +176,10 @@ Abbina un indirizzo IP con 1 o più cifre nell'ultima sezione.
     216.239.32.567
 
 Questo esempio utilizza la barra inversa per evitare il punto e utilizza \d per corrispondere a qualsiasi cifra.
-Asterisco (*)
+
+---
+
+## Asterisco (*)
 
     L'asterisco o stella corrisponde a: 0 o più volte il carattere precedente.
 
@@ -172,6 +191,7 @@ Asterisco (*)
     1000
     e così via.
 
+---
 
 ## Punto (.) e barra inversa (\)
 
@@ -179,19 +199,19 @@ Alcuni caratteri hanno un significato nelle espressioni regolari e uno completam
 
 Le espressioni regolari valutano in primo luogo un carattere speciale nel contesto delle espressioni regolari: se vedono un punto, sanno che deve corrispondere a qualunque carattere.
 
-    Ad esempio, l'espressione regolare 1. corrisponde a: 
+* Ad esempio, l'espressione regolare 1. corrisponde a: 
 
-    11
-    1A
+* 11
+* 1A
 
-    L'espressione regolare 1.1 corrisponde a: 
-    111
-    1A1
+* L'espressione regolare 1.1 corrisponde a: 
+* 111
+* 1A1
 
-    Se dovessi fornire un indirizzo IP come espressione regolare, otterresti risultati imprevedibili. Ad esempio, l'espressione regolare 0.0.0.0 corrisponde a: 
+* Se dovessi fornire un indirizzo IP come espressione regolare, otterresti risultati imprevedibili. Ad esempio, l'espressione regolare 0.0.0.0 corrisponde a: 
 
-    0102030
-    0a0b0c0
+* 0102030
+* 0a0b0c0
 
 Per dire alle espressioni titolare di visualizzare il punto nel suo contesto originale come separatore tra le diverse parti dell'indirizzo IP e non come carattere speciale utilizzato per corrispondere a tutti gli altri caratteri, devi fornire un segnale a tale scopo. La barra inversa (\) è quel segnale. Quando le espressioni regolare visualizzano una barra inversa, sanno che deve interpretare letteralmente il carattere successivo. Un'espressione regolare per corrispondere all'indirizzo IP 0.0.0.0 potrebbe essere:
 
@@ -204,6 +224,7 @@ Utilizza la barra inversa per evitare i caratteri speciali e interpretarli lette
     \{ (evita la parentesi graffa)
     \. (evita il punto)
 
+---
 
 ## Accento circonflesso (^)
 
@@ -227,6 +248,8 @@ Utilizza questo tipo di espressione regolare per creare segmenti, filtri o fasi 
 
         ^/mens/ (corrisponde a: www.example.com/mens/)
         ^/womens/ (corrisponde a: www.example.com/womens/)
+
+---
 
 ## Simbolo del dollaro ($)
 
