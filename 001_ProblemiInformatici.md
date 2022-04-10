@@ -3,7 +3,7 @@
 ## La risoluzione di un problema
 
 * È il processo che 
-	* dato un problema ed 
+	* dato un problema
 	* individuato un metodo risolutivo
 	* trasforma i dati iniziali nei corrispondenti risultati finali
 
@@ -12,6 +12,7 @@
 	* si tratta di istruzioni comprensibili da un elaboratore? 
 	* allora esso può essere svolto da un elaboratore
 
+---
 
 * La descrizione del problema non fornisce un metodo per calcolare il risultato.
 * Non tutti i problemi sono risolvibili attraverso l'uso del calcolatore. 
@@ -21,6 +22,7 @@
 	* per il problema non è stato trovato un metodo risolutivo.
 	* è stato dimostrato che non esiste un metodo risolutivo automatizzabile
 
+---
 
 ### problemi che possiamo risolvere con un elaboratore
 

@@ -6,6 +6,8 @@
 
 ![algoritmo](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/algoritmo.png)
 
+---
+
 ## Proprietà degli algoritmi
 
 * Eseguibilità: ogni “istruzione” deve essere eseguibile da parte dell’esecutore dell’algoritmo;
@@ -17,6 +19,8 @@ se almeno una delle 3 proprietà non è soddisfatta, la sequenza non è un algor
 * Generalità: corretto funzionamento dell'algoritmo anche variando alcuni aspetti del problema (ad esempio, la dimensione dell'insieme dei dati, il tipo dei dati, ecc.)
 * Efficienza: tanto minore è il numero di azioni eseguite per la risoluzione del problema, tanto maggiore è l'efficienza.
 * Determinismo: possibilità di prevedere esattamente prima dell'esecuzione la sequenza di azioni che verranno eseguite, per ogni insieme di dati.
+
+---
 
 ## Algoritmi e Programmi
 
@@ -34,6 +38,8 @@ Dato un problema P, la sua soluzione può essere ottenuta mediante l’uso del c
 
 Il **PROGRAMMA** potrà essere eseguito dall'elaboratore per risolvere automaticamente ogni istanza del problema P.
 
+---
+
 ## Algoritmi equivalenti
 
 Due algoritmi si dicono equivalenti quando:
@@ -48,6 +54,8 @@ Due algoritmi equivalenti:
 * possono essere profondamente diversi
 * possono avere differente efficienza
 
+---
+
 ## Rappresentare algoritmi
 
 ![diagramma_flusso](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/diagramma_flusso.png)
@@ -56,6 +64,8 @@ Due algoritmi equivalenti:
 * ad ogni tipo di azione corrisponde ad un simbolo grafico (blocco) diverso.
 * ogni blocco ha un ramo in ingresso ed uno o più rami in uscita; collegando tra loro i vari blocchi attraverso i rami, si ottiene un diagramma di flusso
 * un diagramma di flusso appare, quindi, come un insieme di blocchi, collegati fra loro da linee orientate che specificano la sequenza in cui i blocchi * devono essere eseguiti: flusso del controllo di esecuzione.
+
+---
 
 ## Oggetti grafici per rappresentare algoritmi
 

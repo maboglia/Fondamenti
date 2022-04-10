@@ -17,19 +17,6 @@ Il paradigma imperativo è molto vicino al modo di funzionamento dell’elaborat
 
 ---
 
-**Calcola la media di 5 numeri interi in linguaggio C** 
-
-```C
-
-  
-int voti[5] = { 28, 29, 30, 25, 123 } int somma = 0; 
-float media = 0.0; 
-for (int i = 0; i < 5; i++) { 
-    somma = somma + voti[i]; 
-} 
-media = somma / 5; 
-
-```
 
 ### La programmazione imperativa è suddivisa in tre grandi categorie: 
 
