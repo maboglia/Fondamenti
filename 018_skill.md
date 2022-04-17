@@ -110,14 +110,6 @@
 3. Si assicura di controllare i valori di ritorno e controllare le eccezioni intorno al codice che può non riuscire.
 4. Ha la sua libreria per aiutare con la codifica difensiva, scrive unit test che simulano i guasti
 
-
-### error handling
-
-1. Only codes the happy case
-2. Basic error handling around code that can throw exceptions/generate errors
-3. Ensures that error/exceptions leave program in good state, resources, connections and memory is all cleaned up properly
-4. Codes to detect possible exception before, maintain consistent exception handling strategy in all layers of code, come up with guidelines on exception handling for entire system.
-
 ### gestione degli errori
 
 1. Codifica solo *happy case*
