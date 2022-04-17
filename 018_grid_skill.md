@@ -79,12 +79,6 @@ Level 0|Level 1|Level 2|Level 3
 ---|---|---|---
 Non capisce il concetto|Controlla tutti gli argomenti e asserisce i presupposti critici nel codice|Si assicura di controllare i valori di ritorno e controllare le eccezioni intorno al codice che può non riuscire.|Ha la sua libreria per aiutare con la codifica difensiva, scrive unit test che simulano i guasti
 
-
-### error handling
-Level 0|Level 1|Level 2|Level 3
----|---|---|---
-Only codes the happy case|Basic error handling around code that can throw exceptions/generate errors|Ensures that error/exceptions leave program in good state, resources, connections and memory is all cleaned up properly|Codes to detect possible exception before, maintain consistent exception handling strategy in all layers of code, come up with guidelines on exception handling for entire system.
-
 ### gestione degli errori
 Level 0|Level 1|Level 2|Level 3
 ---|---|---|---
