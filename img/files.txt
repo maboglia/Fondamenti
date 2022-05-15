@@ -13,7 +13,6 @@ android-sqlite-multiple-tables-design.png
 architecture_Internet.png
 attribute_nodes_code.png
 attribute_nodes.png
-backend-frontend
 back-front-end-languages.png
 bom.jpg
 car_class.jpeg
@@ -31,9 +30,7 @@ element_nodes.png
 exploits_of_a_mom.png
 fcmax.jpg
 features_of_java.png
-files.txt
 four-Layers-arch.png
-funny
 github_add_commit.png
 github.png
 git_process.png
