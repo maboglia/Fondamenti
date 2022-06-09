@@ -14,4 +14,4 @@ La storia del pensiero computazionale risale almeno agli anni 1950, ma la maggio
 
 Il termine pensiero computazionale è stato utilizzato per la prima volta da Seymour Papert nel 1980 nel suo libro "Mindstorms" e, successivamente, formalizzato dall'informatica americana Jeanette Wing in un articolo del 2006.[1].
 
-[wikipedia](https://it.wikipedia.org/wiki/Pensiero_computazionale)
+[Fonte: wikipedia](https://it.wikipedia.org/wiki/Pensiero_computazionale)
