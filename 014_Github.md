@@ -142,3 +142,7 @@ Annulla un'istantanea salvata. Quando si scopre un commit errato, il ripristino 
 ### git status 
 
 Visualizza lo stato della directory di lavoro e l'istantanea a fasi. Dovresti eseguirlo insieme a git add e git commit per vedere esattamente cosa viene incluso nella prossima istantanea.
+
+---
+
+[Git tips](https://github.com/maboglia/git-tips)
