@@ -13,8 +13,8 @@ GitHub fornisce una piattaforma per condividere un intero progetto come repo tra
 
 ## gist
 
-Gist è un modo semplice per condividere frammenti e paste con gli altri.
-Una sintesi è per un pezzo di codice (di solito non connesso ad altro codice), come per discutere o fornire esempi.
+Gist è un modo semplice per condividere frammenti di codice con altri.
+Un pezzo di codice (di solito non connesso ad altro codice), come spunto per discutere o fornire esempi.
 
 ## Git commands 
 
