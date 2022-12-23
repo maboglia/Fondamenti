@@ -3,14 +3,14 @@
 ## La risoluzione di un problema
 
 * È il processo che 
-	* dato un problema
-	* individuato un metodo risolutivo
-	* trasforma i dati iniziali nei corrispondenti risultati finali
+  * dato un problema
+  * individuato un metodo risolutivo
+  * trasforma i dati iniziali nei corrispondenti risultati finali
 
 * Tale processo
-	* può essere definito come un insieme ordinato di azioni elementari?
-	* si tratta di istruzioni comprensibili da un elaboratore? 
-	* allora esso può essere svolto da un elaboratore
+  * può essere definito come un insieme ordinato di azioni elementari?
+  * si tratta di istruzioni comprensibili da un elaboratore? 
+  * allora esso può essere svolto da un elaboratore
 
 ---
 
@@ -18,9 +18,9 @@
 * Non tutti i problemi sono risolvibili attraverso l'uso del calcolatore. 
 
 * Per esempio, la soluzione automatica non è proponibile quando:
-	* il problema presenta infinite soluzioni
-	* per il problema non è stato trovato un metodo risolutivo.
-	* è stato dimostrato che non esiste un metodo risolutivo automatizzabile
+  * il problema presenta infinite soluzioni
+  * per il problema non è stato trovato un metodo risolutivo.
+  * è stato dimostrato che non esiste un metodo risolutivo automatizzabile
 
 ---
 

@@ -4,6 +4,8 @@ La programmazione funzionale è un tipo di programmazione **dichiarativa**.
 Un approccio funzionale implica la composizione del problema come **set di funzioni da eseguire**. 
 È necessario definire con attenzione l'**input** e l'**output** di ogni funzione.
 
+---
+
 * La programmazione funzionale o FP è un modo di pensare alla costruzione di software basata su alcuni principi fondamentali
 * I concetti di programmazione funzionale si concentrano sui risultati, non sul processo
 * L'obiettivo di qualsiasi linguaggio FP è quello di imitare le funzioni matematiche
@@ -14,7 +16,9 @@ Un approccio funzionale implica la composizione del problema come **set di funzi
   * 4) Scala 
   * 5) Erlang 
   * 6) Clean
-  
+
+---
+
 * Una "funzione pura" è una funzione i cui input sono dichiarati come input e nessuno di essi deve essere nascosto. Gli output sono anche dichiarate come output.
 * Dati immutabili significa che dovresti essere in grado di creare facilmente strutture di dati invece di modificare quelle già esistenti
 * Ti consente di evitare problemi di confusione ed errori nel codice
@@ -117,6 +121,8 @@ Nella programmazione funzionale, non possiamo modificare una variabile dopo che 
 
 Le funzioni di prima classe vengono trattate come variabili di prima classe. Le variabili di prima classe possono essere passate a funzioni come parametro, possono essere restituite da funzioni o memorizzate in strutture di dati. Le funzioni di ordine superiore sono le funzioni che accettano altre funzioni come argomenti e possono anche restituire funzioni.
 
+---
+
 
 ## closure
 
@@ -189,6 +195,7 @@ Stati condivisi
 
 Gli stati condivisi sono un concetto importante nella programmazione OOP. Fondamentalmente, sta aggiungendo proprietà agli oggetti. Ad esempio, se un disco rigido è un oggetto, capacità di archiviazione e dimensioni del disco possono essere aggiunte come proprietà.
 
+---
 
 ## Effetti collaterali
 
@@ -201,11 +208,11 @@ Gli effetti collaterali sono eventuali cambiamenti di stato che si verificano al
 
 Il design modulare aumenta la produttività. I piccoli moduli possono essere codificati rapidamente e hanno maggiori possibilità di riutilizzo, il che sicuramente porta a uno sviluppo più rapido dei programmi. Oltre a ciò, i moduli possono essere testati separatamente, il che consente di ridurre il tempo impiegato per il test e il debug dell'unità.
 
+---
 
 ## manutenibilità
 
 Manutenibilità è un termine semplice che significa che la programmazione FP è più facile da mantenere in quanto non è necessario preoccuparsi di modificare accidentalmente qualcosa al di fuori di una determinata funzione.
-
 
 ---
 
@@ -240,7 +247,6 @@ Manutenibilità è un termine semplice che significa che la programmazione FP è
 * Ha bisogno di molta progettazione e di un grande ambiente di sviluppo e runtime 
 * Il riutilizzo è molto complicato e necessita di un costante refactoring
 * Gli oggetti potrebbero non rappresentare correttamente il problema
-
 
 ---
 

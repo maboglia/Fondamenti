@@ -9,6 +9,8 @@ Fondamentalmente il calcolo si riduce al conteggio dei risultati per la query di
 
 `+"<language> programming"`
 
+---
+
 ## Programming Language
 
 Come viene considerato un linguaggio di programmazione per l'indice TIOBE. 
