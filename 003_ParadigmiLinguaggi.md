@@ -1,9 +1,10 @@
 # Paradigmi di programmazione e linguaggi
 
-
 ## Quanti Linguaggi...
 
 ![linguaggi](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/linguaggi.jpg)
+
+---
 
 ## … e quanti paradigmi di programmazione
 
@@ -14,6 +15,7 @@ Un paradigma di programmazione è uno stile fondamentale di programmazione utile
 
 Esistono diversi tipi di paradigma di programmazione, che non sono altro che uno stile di programmazione. Il paradigma non si adatta a una lingua specifica, ma al modo in cui è scritto il programma. 
 
+---
 
 ## Paradigmi
 
@@ -28,4 +30,3 @@ Esistono diversi tipi di paradigma di programmazione, che non sono altro che uno
 * [La programmazione funzionale](https://github.com/maboglia/Fondamenti/blob/master/003_Funzionale.md)
 
 * [La programmazione logica](https://github.com/maboglia/Fondamenti/blob/master/003_Programmazione_logica.md)
-

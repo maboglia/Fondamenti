@@ -14,9 +14,14 @@ Si parte da un insieme di dati cui si applicano una o più **manipolazioni** da 
 
 La programmazione **procedurale** può essere il primo paradigma di programmazione che un nuovo sviluppatore imparerà. Fondamentalmente, il codice **procedurale** è quello che istruisce direttamente un dispositivo su come completare un'attività in passaggi logici. 
 
+---
+
+
 Questo paradigma utilizza un approccio lineare dall'alto verso il basso e tratta i dati e le procedure come due entità diverse. Sulla base del concetto di una chiamata di procedura, la Programmazione **procedurale** suddivide il programma in procedure, note anche come routine o funzioni, contenenti semplicemente una serie di passaggi da eseguire.
 
 In poche parole, la Programmazione **procedurale** comporta la redazione di un elenco di istruzioni per dire al computer cosa dovrebbe fare passo dopo passo per completare l'attività a portata di mano.
+
+---
 
 ### Caratteristiche principali della programmazione **procedurale**
 
@@ -28,7 +33,9 @@ Le caratteristiche principali della programmazione **procedurale** sono riportat
 * **Modularità**: la modularità è quando due sistemi diversi hanno due compiti diversi a portata di mano ma sono raggruppati insieme per concludere prima un compito più ampio. Ogni gruppo di sistemi dovrebbe quindi completare i propri compiti uno dopo l'altro fino al completamento di tutti i compiti.
 * **Passaggio parametri**: il passaggio parametri è un meccanismo utilizzato per passare parametri a funzioni, subroutine o procedure. Il passaggio dei parametri può essere eseguito tramite "passa per valore", "passa per riferimento", "passa per risultato", "passa per risultato valore" e "passa per nome".
 
-# Vantaggi e svantaggi della programmazione **procedurale**
+---
+
+## Vantaggi e svantaggi della programmazione **procedurale**
 
 La programmazione **procedurale** include una serie di pro e contro, alcuni dei quali sono indicati di seguito.
 
@@ -41,7 +48,9 @@ La programmazione **procedurale** include una serie di pro e contro, alcuni dei 
 * minore uso della memoria
 * gestione del flusso semplificata 
 
-### svantaggi
+---
+
+## svantaggi
 * codice _difficile_ da scrivere 
 * codice spesso non riutilizzabile
 * Difficile relazionarsi con oggetti del mondo reale
