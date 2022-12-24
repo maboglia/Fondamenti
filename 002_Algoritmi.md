@@ -6,10 +6,6 @@
 
 ---
 
-![algoritmo](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/algoritmo.png)
-
----
-
 ## Proprietà degli algoritmi
 
 * Eseguibilità: ogni “istruzione” deve essere eseguibile da parte dell’esecutore dell’algoritmo;
@@ -76,6 +72,12 @@ Due algoritmi equivalenti:
 ## Oggetti grafici per rappresentare algoritmi
 
 ![diagrammi flusso](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/diagrammi_flusso1.jpg)
+
+---
+
+## esempio: il numero dato n è pari o dispari
+
+![algoritmo](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/algoritmo.png)
 
 ---
 
