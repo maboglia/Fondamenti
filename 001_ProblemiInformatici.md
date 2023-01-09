@@ -14,6 +14,8 @@
 
 ---
 
+## problemi che NON possiamo risolvere con un elaboratore
+
 * La descrizione del problema non fornisce un metodo per calcolare il risultato.
 * Non tutti i problemi sono risolvibili attraverso l'uso del calcolatore. 
 
@@ -24,7 +26,7 @@
 
 ---
 
-### problemi che possiamo risolvere con un elaboratore
+## problemi che possiamo risolvere con un elaboratore
 
 * Emissione di certificati e report
 * Gestione dei c/c di un istituto di credito
