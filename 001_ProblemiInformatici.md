@@ -18,6 +18,10 @@
 
 ---
 
+![Programming](https://raw.githubusercontent.com/maboglia/CorsoJava/master/appunti/img/Programming.png)
+
+---
+
 ## problemi che NON possiamo risolvere con un elaboratore
 
 * La descrizione del problema non fornisce un metodo per calcolare il risultato.
