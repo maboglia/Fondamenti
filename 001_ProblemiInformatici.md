@@ -35,17 +35,15 @@
 ## problemi che possiamo risolvere con un elaboratore
 
 * Emissione di certificati e report
-* Gestione dei c/c di un istituto di credito
+* Remote banking
 * Prenotazioni su internet
-* Somma di due numeri interi
-* Calcolare il massimo comun divisore fra due numeri dati, o il minimo comune multiplo.
-* Dato un insieme di parole, metterle in ordine alfabetico.
-* Dato un insieme di numeri interi, metterli in ordine naturale.
-* Calcolare l'intersezione di due insiemi.
-* Dato un elenco di nomi e relativi numeri di telefono, trovare il numero di telefono di una determinata persona
+* operazioni aritmetiche
+* Ordinare dati, insiemi di parole, insiemi di numeri, ...
+* Calcolare l'intersezione di insiemi.
 * Dati gli archivi dei dipendenti di un’azienda, calcolare lo stipendio medio del dipendente dell’azienda.
 * Dati a e b, risolvere l'equazione ax+b=0
-* e così via...
+* Intrattenimento, gioco, news, social
+* e moltissimi altri...
 
 
-[Algoritmi](002_Algoritmi.md)
+[Algoritmi](https://github.com/maboglia/Fondamenti/blob/master/002_Algoritmi.md)
