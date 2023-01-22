@@ -14,8 +14,6 @@
 
 ---
 
-## 
-
 ![The problem solving loop](https://raw.githubusercontent.com/maboglia/CorsoJava/master/appunti/img/5steploop2.jpg)
 
 ---
