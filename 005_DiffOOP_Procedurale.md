@@ -1,5 +1,7 @@
 # Programmazione ad oggetti vs procedurale
- 
+
+---
+
 ## Programmazione imperativa
 
 Possiamo programmare utilizzando i seguenti tipi di dati:
@@ -8,8 +10,7 @@ Possiamo programmare utilizzando i seguenti tipi di dati:
 * Le stringhe
 * Gli array
 
-I programmi consistono di una sequenza di comandi,
-strutture di controllo (cicli, scelte condizionali, ecc...) ed eventualmente metodi ausiliari che consentono di manipolare i dati per calcolare il risultato voluto.
+I programmi consistono di una sequenza di comandi, strutture di controllo (cicli, scelte condizionali, ecc...) ed eventualmente metodi ausiliari che consentono di manipolare i dati per calcolare il risultato voluto.
 
 ---
 
@@ -18,12 +19,13 @@ Questo modo di programmare prende il nome di __PROGRAMMAZIONE IMPERATIVA__, impe
 ## Programmazione imperativa
 
 Nella programmazione imperativa:
+
 * Un programma prevede uno stato globale costituito dai valori delle sue variabili
-* I comandi del programma modificano lo stato fino a raggiungere uno stato finale (che include il risultato)
+* I comandi del programma modificano lo stato fino a raggiungere uno stato finale 
 
 ---
 
-## Programmazione imperativa
+## Programmazione imperativa 2
 
 Ad esempio, il seguente programma (che calcola il prodotto di x e y) ha la seguente dinamica:
 
@@ -35,7 +37,7 @@ p+=x;
 
 ---
 
-**Procedurale vs OOP**
+## Procedurale vs OOP
 
 * Nella programmazione procedurale, il codice è centrale e i dati sono subordinati 
 * abbiamo programmi che agiscono sui dati che di solito non sono strettamente collegati
@@ -48,7 +50,7 @@ p+=x;
 
 ---
 
-### Per esempio: abbiamo un numero e vogliamo raddoppiarlo.
+## Per esempio: abbiamo un numero e vogliamo raddoppiarlo.
 
 Nel modo procedurale possiamo scrivere:
 
@@ -58,11 +60,13 @@ n = n * 2
 
 **Il codice moltiplica n per 2 e registra il risultato in n.**
 
----
-
 Nella programmazione orientata agli oggetti si invia un "messaggio" all'oggetto chiamando un metodo per raddoppiare: ```n.raddoppia();```
 
 Un oggetto di tipo Operazione riceve la chiamata al metodo `raddoppia(<TIPO>)`, riconosce il tipo dell'argomento e richiama il metodo implementato per quel tipo.
+
+---
+
+## Overload del metodo raddoppia
 
 ```java
 class Operazione{
@@ -85,7 +89,7 @@ Se il programma richiede di replicare la procedura su un oggetto di tipo string 
 
 ---
 
-### Esempio: Codice Procedurale vs OOP in PHP
+## Esempio: Codice Procedurale vs OOP in PHP
 
 ```php
 <?php
