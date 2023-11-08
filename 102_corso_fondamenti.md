@@ -80,6 +80,45 @@ Nell'esempio di Python, la costante `PI_GRECO` rappresenta il valore di π e vie
 
 Le costanti sono utili quando si desidera utilizzare valori che non dovrebbero essere modificati durante l'esecuzione del programma. Questo può migliorare la chiarezza del codice e aiutare a evitare errori dovuti a modifiche non intenzionali dei valori.
 
+## espressioni
+
+Le espressioni sono combinazioni di valori, variabili, operatori e chiamate a funzioni che possono essere valutate e risolte in un unico valore. Sono la base della programmazione e costituiscono i blocchi di costruzione di qualsiasi linguaggio di programmazione.
+
+### Caratteristiche delle espressioni
+
+1. **Valori e Variabili**: Possono includere costanti, numeri, stringhe, variabili o valori derivati da altre espressioni.
+
+2. **Operatori**: Utilizzano operatori come +, -, *, /, %, =, etc., per eseguire operazioni su valori o variabili.
+
+3. **Chiamate a Funzioni**: Le espressioni possono includere chiamate a funzioni che restituiscono un valore.
+
+### Esempi di espressioni
+
+#### In JavaScript
+
+```javascript
+let a = 5;
+let b = 3;
+
+let somma = a + b;  // Espressione che utilizza l'operatore di addizione
+let espressioneComplessa = (a * b) / (a - b) + Math.sqrt(a);  // Espressione più complessa
+```
+
+#### In Python
+
+```python
+a = 5
+b = 3
+
+somma = a + b  # Espressione che utilizza l'operatore di addizione
+espressione_complessa = (a * b) / (a - b) + pow(a, 0.5)  # Espressione più complessa con la funzione pow
+```
+
+Le espressioni possono essere semplici, coinvolgendo solo operazioni aritmetiche di base, o possono essere più complesse coinvolgendo operatori e funzioni più avanzate.
+
+Le espressioni sono fondamentali nella programmazione in quanto consentono di eseguire calcoli, confronti e operazioni su dati. Sono ampiamente utilizzate nelle istruzioni di assegnazione, nelle condizioni delle istruzioni di controllo del flusso e in molti altri contesti all'interno dei programmi.
+
+
 ## scope
 
 Lo "scope" o "ambito di visibilità" in programmazione si riferisce alla porzione del codice in cui una variabile o una funzione sono accessibili e utilizzabili. Ogni linguaggio di programmazione definisce le regole per lo scope, determinando dove e quando le variabili possono essere accedute o modificate.
