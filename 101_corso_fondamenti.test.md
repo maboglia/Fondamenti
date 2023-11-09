@@ -14,6 +14,8 @@ Il corso "Fondamenti di Programmazione" è progettato per gli studenti post dipl
 
 ![Alt text](img/how-user-see-program.jpg)
 
+---
+
 ### Obiettivi del Corso
 
 1. **Introduzione alla Logica di Programmazione**: Fornire una comprensione approfondita dei principi fondamentali della logica di programmazione, inclusi algoritmi, strutture dati e logica di controllo.
