@@ -1,3 +1,5 @@
+![logo](./loghi_fondi_europei.jpg)
+
 # "Fondamenti di Programmazione: Introduzione al Pensiero Logico e alla Scrittura di Codice"
 
 ### Mauro Bogliaccino
@@ -10,6 +12,8 @@ Il corso "Fondamenti di Programmazione" è progettato per gli studenti post dipl
 
 ---
 
+![Alt text](img/how-user-see-program.jpg)
+
 ### Obiettivi del Corso
 
 1. **Introduzione alla Logica di Programmazione**: Fornire una comprensione approfondita dei principi fondamentali della logica di programmazione, inclusi algoritmi, strutture dati e logica di controllo.
@@ -20,6 +24,10 @@ Il corso "Fondamenti di Programmazione" è progettato per gli studenti post dipl
 3. **Sviluppo di Competenze Pratiche**: Offrire esperienze pratiche con l'implementazione di codice, esercizi guidati e progetti per applicare le conoscenze acquisite.
 4. **Problem-Solving e Pensiero Algoritmico**: Inculcare capacità di risolvere problemi, logica critica e sviluppare pensiero algoritmico per affrontare sfide di programmazione.
 5. **Preparazione per Corsi Avanzati**: Creare una base solida per lo studio di corsi avanzati di programmazione o per l'ingresso nel mondo del lavoro nel settore informatico.
+
+---
+
+![Alt text](img/programmerNutrionalFacts.jpg)
 
 ---
 
@@ -116,50 +124,7 @@ La lezione sarà condotta utilizzando una combinazione di presentazioni teoriche
 
 ---
 
-### Note Finali
-
-La lezione introdurrà gli studenti ai concetti di base della logica di programmazione e degli algoritmi, fondamentali per la comprensione del pensiero logico richiesto per scrivere codice. Si cercherà di garantire che gli studenti comprendano l'importanza della logica nella scrittura di codice e che siano in grado di applicare questi concetti in semplici problemi di algoritmi.
-
----
-
-### Esercizi di Logica
-
-Ecco alcuni esempi di esercizi di logica e problemi di algoritmi che possono essere proposti agli studenti durante una lezione di "Fondamenti di Programmazione" per stimolare il pensiero logico:
-
----
-
-
-1. **Esercizio 1 - Sequenze Numeriche**:
-   - Chiedere agli studenti di identificare il prossimo numero in una sequenza logica (es. 2, 4, 6, 8, ...).
-   - Variante: Proseguire con sequenze più complesse o utilizzando sequenze di lettere.
-2. **Esercizio 2 - Individuare il Pattern**:
-   - Presentare una serie di forme geometriche o numeri e chiedere agli studenti di individuare il pattern o la regola che le governa.
-
----
-
-### Problemi di Algoritmi
-
-1. **Problema 1 - Calcolare la Somma**:
-   - Chiedere agli studenti di scrivere un algoritmo che calcoli la somma di tutti i numeri da 1 a N, dove N è un numero fornito.
-
-2. **Problema 2 - Trovare il Massimo e il Minimo**:
-   - Chiedere agli studenti di scrivere un algoritmo che, dato un insieme di numeri, trovi il numero massimo e il numero minimo.
-
----
-
-### Problemi di Algoritmi
-
-3. **Problema 3 - Ordinare una Sequenza**:
-   - Chiedere agli studenti di scrivere un algoritmo per ordinare una sequenza di numeri in ordine crescente o decrescente.
-
-4. **Problema 4 - Trovare i Numeri Pari e Dispari**:
-   - Chiedere agli studenti di scrivere un algoritmo che identifichi e separi i numeri pari e dispari in una sequenza.
-
-5. **Problema 5 - Verifica della Palindromia**:
-   - Chiedere agli studenti di scrivere un algoritmo che verifichi se una parola è un palindromo (una parola che si legge allo stesso modo da sinistra a destra e viceversa).
-
-
----
+## Programma del corso
 
 ### 1: Introduzione al Corso
 
@@ -297,44 +262,82 @@ Gli argomenti fondamentali del corso "Fondamenti di Programmazione" includono co
 ### Logica di Programmazione
 
 15. **Algoritmi e Strutture Dati**: Concetti fondamentali nella risoluzione dei problemi, come ordinamento, ricerca e gestione dei dati.
+
+---
+
+### Una solida base
+
 Questi argomenti forniscono una base solida per affrontare problemi di programmazione e costituiscono il nucleo di molti linguaggi di programmazione. L'apprendimento di questi concetti fornisce una comprensione essenziale per poter scrivere codice e risolvere problemi in modo efficiente attraverso la programmazione
 
 ---
 
-## Mettiamo in pratica
+## I linguaggi di programmazione
 
 Per la parte pratica dei fondamenti di programmazione, diversi linguaggi possono essere adatti per insegnare i concetti base. La scelta dipende dall'obiettivo del corso, dalla facilità di apprendimento e dalla versatilità del linguaggio stesso. Ecco alcuni linguaggi comuni e le relative considerazioni:
 
 ---
 
-### Python
-
-- **Semplicità e Leggibilità**: Python è noto per la sua sintassi pulita e leggibile, ideale per i principianti.
-- **Ampia Comunità e Risorse**: Ha una vasta comunità di supporto e una grande varietà di risorse didattiche.
-- **Versatilità**: Utilizzato in diversi settori come analisi dei dati, sviluppo web e automazione.
+Ogni linguaggio di programmazione ha caratteristiche uniche, punti di forza e applicazioni specifiche. Ecco una panoramica sui linguaggi di programmazione più diffusi:
 
 ---
 
-### JavaScript
+### 1. Python
 
-- **Ampio Utilizzo**: Linguaggio web standard, ampiamente utilizzato per lo sviluppo front-end e back-end.
-- **Interattività**: Ideale per mostrare l'output dei programmi direttamente su browser.
-- **Sintassi Simile a Python**: Ha una sintassi più accessibile rispetto ad altri linguaggi.
-
----
-
-### Java
-
-- **Orientato agli Oggetti**: Eccellente per insegnare i concetti di programmazione orientata agli oggetti.
-- **Ampia Adozione nel Mondo Accademico**: Spesso utilizzato in corsi introduttivi di informatica nelle università.
-- **Strutturato e Rigoroso**: Favorisce una pratica rigorosa nelle definizioni e nella struttura del codice.
+- **Semplicità e Leggibilità**: Con una sintassi chiara e intuitiva, è noto per essere facile da imparare e leggere.
+- **Versatilità**: Utilizzato in diversi campi come sviluppo web, intelligenza artificiale, analisi dati e automazione.
+- **Ampia Comunità e Librerie**: Vanta una vasta gamma di librerie che semplificano lo sviluppo.
 
 ---
 
-### Scratch
+### 2. JavaScript
 
-- **Per Avvicinare i Giovani allo Studio della Programmazione**: Utilizzato per introdurre i concetti di base della programmazione tramite un'interfaccia visuale.
-- **Sintassi Drag-and-Drop**: Ideale per i bambini o per coloro che non hanno familiarità con la sintassi di un linguaggio di programmazione.
+- **Linguaggio Web Principale**: Utilizzato principalmente per sviluppare applicazioni web e interazioni dinamiche sul front-end.
+- **Supporto dei Browser**: È il principale linguaggio di scripting per browser web e consente l'interattività su pagine web.
+- **Node.js**: Estensione server-side che consente lo sviluppo di applicazioni back-end.
+
+---
+
+### 3. Java
+
+- **Portabilità**: Con il motto "Write Once, Run Anywhere", è noto per la sua portabilità e capacità di funzionare su diverse piattaforme.
+- **Applicazioni Enterprise**: Utilizzato per lo sviluppo di applicazioni enterprise, giochi e applicazioni Android.
+
+---
+
+### 4. C++
+
+- **Efficienza e Velocità**: È apprezzato per le prestazioni elevate e l'efficienza, utilizzato in sistemi embedded, motori di gioco, e software ad alte prestazioni.
+- **Complessità**: Può essere più complesso da imparare rispetto ad altri linguaggi.
+
+---
+
+### 5. C#
+
+- **Framework .NET**: Utilizzato per sviluppare applicazioni Windows e applicazioni web ASP.NET.
+- **Gioco e Applicazioni Desktop**: Comunemente usato per sviluppare giochi e applicazioni desktop.
+
+---
+
+### 6. PHP
+
+- **Sviluppo Web Back-End**: Utilizzato principalmente per lo sviluppo back-end di siti web, in particolare con CMS come WordPress.
+- **Facilità di Integrazione**: Supporta un'ampia gamma di database e integrazioni di terze parti.
+
+---
+
+### 7. Ruby
+
+- **Semplicità e Produttività**: Con il framework Ruby on Rails, offre uno sviluppo rapido e facilità d'uso.
+- **Web Development**: Utilizzato per lo sviluppo web, promuovendo la scrittura di codice pulito e l'adozione di best practices.
+
+---
+
+### 8. Swift (per lo sviluppo iOS)
+
+- **Sviluppo iOS e macOS**: Linguaggio principale per la creazione di applicazioni per dispositivi Apple.
+- **Sicurezza e Prestazioni**: Ha un'enfasi sulla sicurezza del software e offre prestazioni elevate.
+
+Ogni linguaggio di programmazione ha i suoi punti di forza e può essere più adatto per specifiche applicazioni o contesti. La scelta del linguaggio dipende spesso dal tipo di progetto e dalle preferenze personali.
 
 ---
 
@@ -751,3 +754,41 @@ ALGORITMO BINARY_SEARCH
 ---
 
 Questi sono solo alcuni degli algoritmi più comuni utilizzati nella scienza informatica per scopi di ordinamento, ricerca e altri compiti. Ogni algoritmo ha la sua complessità e adatto a situazioni specifiche in base alle esigenze.
+
+---
+
+### Esercizi di Logica
+
+Ecco alcuni esempi di esercizi di logica e problemi di algoritmi che possono essere proposti agli studenti durante una lezione di "Fondamenti di Programmazione" per stimolare il pensiero logico:
+
+---
+
+1. **Esercizio 1 - Sequenze Numeriche**:
+   - Chiedere agli studenti di identificare il prossimo numero in una sequenza logica (es. 2, 4, 6, 8, ...).
+   - Variante: Proseguire con sequenze più complesse o utilizzando sequenze di lettere.
+2. **Esercizio 2 - Individuare il Pattern**:
+   - Presentare una serie di forme geometriche o numeri e chiedere agli studenti di individuare il pattern o la regola che le governa.
+
+---
+
+### Problemi e Algoritmi
+
+1. **Problema 1 - Calcolare la Somma**:
+   - Chiedere agli studenti di scrivere un algoritmo che calcoli la somma di tutti i numeri da 1 a N, dove N è un numero fornito.
+
+2. **Problema 2 - Trovare il Massimo e il Minimo**:
+   - Chiedere agli studenti di scrivere un algoritmo che, dato un insieme di numeri, trovi il numero massimo e il numero minimo.
+
+---
+
+### Problemi e Algoritmi
+
+3. **Problema 3 - Ordinare una Sequenza**:
+   - Chiedere agli studenti di scrivere un algoritmo per ordinare una sequenza di numeri in ordine crescente o decrescente.
+
+4. **Problema 4 - Trovare i Numeri Pari e Dispari**:
+   - Chiedere agli studenti di scrivere un algoritmo che identifichi e separi i numeri pari e dispari in una sequenza.
+
+5. **Problema 5 - Verifica della Palindromia**:
+   - Chiedere agli studenti di scrivere un algoritmo che verifichi se una parola è un palindromo (una parola che si legge allo stesso modo da sinistra a destra e viceversa).
+
