@@ -1,18 +1,18 @@
 # Paradigmi di programmazione e linguaggi
 
-## Tanti Linguaggi
+## Tantissimi Linguaggi
 
 ![linguaggi](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/linguaggi.jpg)
 
 ---
 
-## tanti paradigmi di programmazione
+## Molti paradigmi di programmazione
 
 ![paradigmi](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/paradigmi.jpg)
 
 ---
 
-## Paradigma di programmazione
+## Cos'è un Paradigma di programmazione
 
 Un paradigma di programmazione è uno stile fondamentale di programmazione utile per portare ordine e criteri di lavoro più efficienti nella produzione dei programmi 
 

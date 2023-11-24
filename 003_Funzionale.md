@@ -191,7 +191,10 @@ console.log(fattorializza(6));
 ## Composizione delle funzioni
 
 La composizione delle funzioni combina 2 o più funzioni per crearne una nuova.
-Stati condivisi
+
+---
+
+## Stati condivisi
 
 Gli stati condivisi sono un concetto importante nella programmazione OOP. Fondamentalmente, sta aggiungendo proprietà agli oggetti. Ad esempio, se un disco rigido è un oggetto, capacità di archiviazione e dimensioni del disco possono essere aggiunte come proprietà.
 

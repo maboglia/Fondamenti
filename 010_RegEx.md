@@ -275,3 +275,8 @@ Utilizza questo tipo di espressione regolare per creare segmenti, filtri o passa
     email-signup\.html$
 
 Utilizza la barra per evitare il punto e fare in modo che sia interpretato letteralmente.
+
+---
+
+* [esempi](./009_Esempi_RegEx.md)
+* [basic syntax](./009_RegEx_basics.md)

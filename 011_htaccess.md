@@ -6,7 +6,8 @@ Apache prevede una serie di direttive chiamate container, che identificano un ce
 Un container si definisce tale perchè, a differenza della maggior parte delle direttive di configurazione di Apache, e similmente ai tag HTML, ha una riga di apertura, che definisce l'ambito di applicazione e una di chiusura. All'interno di queste si possono inserire delle configurazioni che sono valide solo per l'ambito specificato.
 
 Con l'esempio che segue si limita l'accesso alla directory /home/www/private solo agli indirizzi della rete 10.0.0.0/24:
-```
+
+```text
 <Directory /home/www/private>
 Order deny,allow
 Deny from all
@@ -36,7 +37,8 @@ Sono previste le seguenti direttive container, che possono essere, in alcuni cas
 Apache prevede direttive per gestire in modo dinamico la configurazione e attivarne blocchi interi se sono riscontrate determinate condizioni:
 
 IfModule viene usata come una direttiva container (anche se non è propriamente un container): tutte le righe di configurazione che stanno al suo interno vengono processate se il modulo specificato è caricato in memoria. Per esempio:
-```
+
+```text
 <IfModule mod_dir.c>
 DirectoryIndex index.html
 </IfModule>
@@ -51,7 +53,7 @@ IfModule è ampiamente utilizzata nelle configurazioni standard di Apache.
 
 IfDefine ha sintassi simile a quella di IfModule e viene utilizzata per definire pezzi di configurazione che possono essere caricati se Apache viene avviato usando il flag -D Definizione. Per esempio:
 
-```
+```text
 <IfDefine Debugga>
 <Location /server-info>
 SetHandler server-info
