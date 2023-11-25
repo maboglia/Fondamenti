@@ -1,5 +1,107 @@
 # Espressioni regolari
 
+Le espressioni regolari (regex o regexp) sono potenti strumenti per la ricerca e la manipolazione di testo basato su modelli di stringhe. Una regex è una sequenza di caratteri che definisce un modello di ricerca. Questi modelli possono essere utilizzati in vari contesti, come la validazione di stringhe, la ricerca di testo in un documento o la sostituzione di parti di una stringa.
+
+Ecco alcune informazioni fondamentali sulle espressioni regolari:
+
+---
+
+### Sintassi di Base
+
+- **Caratteri Literal:** I caratteri normali (non speciali) nella regex corrispondono esattamente a se stessi. Ad esempio, il pattern `"abc"` corrisponde alla stringa "abc".
+
+- **Meta-Caratteri:** Alcuni caratteri hanno significati speciali nella regex e sono noti come meta-caratteri. Alcuni esempi di meta-caratteri comuni includono `^`, `$`, `*`, `+`, `?`, `.`, `()`, `[]`, `{}`, etc.
+
+---
+
+### Quantificatori
+
+- `*`: Corrisponde a zero o più occorrenze del carattere precedente. Ad esempio, `"a*"` corrisponde a "", "a", "aa", "aaa", ecc.
+
+- `+`: Corrisponde a una o più occorrenze del carattere precedente. Ad esempio, `"a+"` corrisponde a "a", "aa", "aaa", ecc., ma non a "".
+
+- `?`: Rende facoltativo il carattere precedente, corrispondendo a zero o una sola occorrenza.
+
+- `{n}`: Corrisponde esattamente a n occorrenze del carattere precedente. Ad esempio, `"a{3}"` corrisponde a "aaa".
+
+- `{n,}`: Corrisponde a n o più occorrenze del carattere precedente.
+
+- `{n,m}`: Corrisponde a un numero compreso tra n e m di occorrenze del carattere precedente.
+
+---
+
+### Gruppi e Parentesi
+
+- `()`: Utilizzati per raggruppare parti di una regex. Consentono di applicare quantificatori o altri costrutti a un gruppo di caratteri.
+
+- `|`: Funge da operatore logico OR. Ad esempio, `"a|b"` corrisponde a "a" o "b".
+
+---
+
+### Caratteri Speciali
+
+- `.` (punto): Corrisponde a qualsiasi singolo carattere, ad eccezione di un carattere di nuova riga.
+
+- `^`: Indica l'inizio di una riga.
+
+- `$`: Indica la fine di una riga.
+
+- `\`: Utilizzato per l'escape di caratteri speciali o per introdurre sequenze di escape speciali.
+
+---
+
+### Classi di Caratteri
+
+- `[]`: Definisce una classe di caratteri. Ad esempio, `"[aeiou]"` corrisponde a qualsiasi vocale.
+
+- `[^]`: Corrisponde a qualsiasi carattere che non è nell'insieme specificato.
+
+---
+
+### Caratteri di Escape
+
+- `\d`: Corrisponde a un carattere numerico.
+
+- `\w`: Corrisponde a un carattere alfanumerico o all'underscore.
+
+- `\s`: Corrisponde a uno spazio bianco (spazio, tabulazione, nuova riga).
+
+---
+
+### Esempi di Utilizzo
+
+- **Email Validation:**
+
+  ```regex
+  ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+  ```
+
+- **Data (Formato MM/DD/YYYY):**
+
+  ```regex
+  ^(0[1-9]|1[0-2])/(0[1-9]|[12][0-9]|3[01])/\d{4}$
+  ```
+
+- **Ricerca di URL:**
+
+  ```regex
+  https?://(?:www\.)?[a-zA-Z0-9-]+\.[a-zA-Z]{2,}
+  ```
+
+---
+
+### Strumenti Online
+
+Ci sono vari strumenti online che consentono di testare ed esplorare espressioni regolari, come Regex101 o RegExr. Questi strumenti sono utili per sperimentare e capire come funzionano le espressioni regolari.
+
+---
+
+### Conclusioni
+
+Le espressioni regolari sono uno strumento potente e flessibile per manipolare e analizzare stringhe di testo. Tuttavia, possono diventare complesse e difficili da leggere a causa della loro sintassi. Pratica ed esperienza sono chiave per diventare competenti nell'uso delle espressioni regolari.
+
+---
+
 *da google analytics*
 
 Metacaratteri delle espressioni regolari
@@ -83,7 +185,7 @@ Utilizza la barra verticale per creare una condizione OR in un'espressione.
 Ad esempio, se tu volessi creare un segmento con i dati della campagna Primavera a Londra e Parigi, dovresti configurare i segmenti nel seguente modo:
 
     La campagna corrisponde esattamente a Primavera
-        La città corrisponde all: espressione regolare Londra|Parigi
+    La città corrisponde all: espressione regolare Londra|Parigi
 
 Puoi anche utilizzare la barra verticale dentro le parentesi. Ad esempio, ecco un altro modo per creare l'espressione da abbinare agli SKU dei sandali da spiaggia:
 
@@ -116,7 +218,7 @@ Utilizza le parentesi quadre per creare un set di caratteri da abbinare.
 
 ---
 
-## Trattino -
+## Trattino `-`
 
 Utilizza il trattino insieme alle parentesi quadre per creare una corrispondenza di un intervallo di caratteri.
 
@@ -156,14 +258,14 @@ Questo esempio utilizza la barra inversa per evitare il punto e utilizza \d per 
 
 ## Segno più (+)
 
-    Il segno più (+) corrisponde a: 1 o più volte il carattere che lo precede.
+Il segno più (+) corrisponde a: 1 o più volte il carattere che lo precede.
 
-    Ad esempio, 10+ corrisponde a: 
+Ad esempio, 10+ corrisponde a: 
 
-    10
-    100
-    1000
-    e così via.
+10
+100
+1000
+e così via.
 
 Esempio
 
