@@ -2,7 +2,9 @@
 
 Scrum è un framework Agile ampiamente utilizzato per lo sviluppo di prodotti complessi, specialmente nel contesto del software. Questo framework si basa su principi di trasparenza, ispezione e adattamento e promuove il lavoro collaborativo in team multidisciplinari e auto-organizzanti. Ecco alcuni concetti chiave e ruoli di Scrum:
 
-### Ruoli di Scrum
+---
+
+## Ruoli di Scrum
 
 1. **Product Owner:**
    - Rappresenta gli interessi degli stakeholder e definisce le caratteristiche del prodotto.
@@ -16,7 +18,9 @@ Scrum è un framework Agile ampiamente utilizzato per lo sviluppo di prodotti co
    - Il team multidisciplinare e auto-organizzante responsabile dello sviluppo del prodotto.
    - Coinvolto nella pianificazione, nella progettazione, nella codifica, nei test e nella consegna delle funzionalità.
 
-### Artefatti di Scrum
+---
+
+## Artefatti di Scrum
 
 1. **Product Backlog:**
    - Un elenco prioritizzato di tutte le funzionalità, miglioramenti e correzioni di bug che compongono il lavoro da fare sul prodotto.
@@ -30,7 +34,9 @@ Scrum è un framework Agile ampiamente utilizzato per lo sviluppo di prodotti co
    - La somma di tutte le attività completate durante uno sprint, che costituisce una versione incrementale del prodotto.
    - L'obiettivo è produrre un incremento di valore al termine di ogni sprint.
 
-### Eventi di Scrum
+---
+
+## Eventi di Scrum
 
 1. **Sprint Planning:**
    - Riunione all'inizio di ogni sprint in cui il team di sviluppo e il Product Owner collaborano per selezionare gli elementi del Product Backlog da sviluppare durante lo sprint.
