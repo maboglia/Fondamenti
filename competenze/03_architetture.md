@@ -78,3 +78,99 @@ Il ciclo di vita di una richiesta HTTP può essere suddiviso nei seguenti passag
 6. **Rendering lato client**:
    - Il client elabora la risposta ricevuta e la mostra all'utente, ad esempio visualizzando una pagina web nel browser.
 
+---
+
+Ecco il quiz a risposta multipla basato sugli argomenti che hai fornito:
+
+---
+
+### **Quiz: Architettura e Funzionalità del Server Web**
+
+1. **Qual è la funzione principale di un server web?**
+   - A) Eseguire script lato client
+   - B) Gestire le richieste HTTP/HTTPS e fornire risposte
+   - C) Creare contenuti dinamici
+   - D) Gestire solo contenuti statici
+
+   **Risposta corretta**: B) Gestire le richieste HTTP/HTTPS e fornire risposte
+
+---
+
+2. **Cosa fa un "listener" di un server web?**
+   - A) Risolve gli indirizzi DNS
+   - B) Rimane in ascolto su una porta specifica per ricevere richieste dai client
+   - C) Genera contenuti dinamici dal database
+   - D) Cripta le comunicazioni tra il client e il server
+
+   **Risposta corretta**: B) Rimane in ascolto su una porta specifica per ricevere richieste dai client
+
+---
+
+3. **Qual è la differenza principale tra Apache e Nginx?**
+   - A) Apache è ottimizzato per il reverse proxy, mentre Nginx è migliore per il bilanciamento del carico
+   - B) Apache utilizza un'architettura basata su eventi, mentre Nginx è basato su processi
+   - C) Apache gestisce meglio il caching, mentre Nginx è più efficiente nel gestire molteplici richieste concorrenti
+   - D) Apache è più adatto per contenuti statici, mentre Nginx è migliore per contenuti dinamici
+
+   **Risposta corretta**: C) Apache gestisce meglio il caching, mentre Nginx è più efficiente nel gestire molteplici richieste concorrenti
+
+---
+
+4. **Come vengono gestiti i contenuti dinamici in un server web?**
+   - A) Vengono forniti direttamente dal file system senza alcuna elaborazione
+   - B) Vengono generati in tempo reale dal server utilizzando linguaggi di scripting lato server
+   - C) Vengono elaborati tramite cache per ridurre il carico del server
+   - D) Vengono gestiti solo tramite database relazionali
+
+   **Risposta corretta**: B) Vengono generati in tempo reale dal server utilizzando linguaggi di scripting lato server
+
+---
+
+5. **In che cosa differiscono le richieste HTTP GET e POST?**
+   - A) Le richieste GET inviano dati nel corpo della richiesta, mentre POST li invia nell'URL
+   - B) Le richieste POST sono idempotenti, mentre GET non lo è
+   - C) Le richieste GET sono utilizzate per inviare dati al server, mentre POST per richiedere informazioni
+   - D) Le richieste GET inviano dati nell'URL, mentre POST nel corpo della richiesta
+
+   **Risposta corretta**: D) Le richieste GET inviano dati nell'URL, mentre POST nel corpo della richiesta
+
+---
+
+6. **Qual è la principale caratteristica della richiesta HTTP GET?**
+   - A) I dati vengono inviati nel corpo della richiesta
+   - B) È idempotente, quindi non cambia lo stato del server
+   - C) Viene utilizzata per inviare informazioni sensibili
+   - D) Non è supportata dai browser moderni
+
+   **Risposta corretta**: B) È idempotente, quindi non cambia lo stato del server
+
+---
+
+7. **Cosa accade durante la fase di "Risoluzione DNS" di una richiesta HTTP?**
+   - A) Il client stabilisce una connessione TCP/IP con il server
+   - B) L'URL fornito viene tradotto in un indirizzo IP per localizzare il server di destinazione
+   - C) Il server restituisce una risposta con il codice di stato HTTP
+   - D) Il server invia un certificato SSL/TLS per la crittografia dei dati
+
+   **Risposta corretta**: B) L'URL fornito viene tradotto in un indirizzo IP per localizzare il server di destinazione
+
+---
+
+8. **Qual è il risultato di una richiesta HTTP 404?**
+   - A) La richiesta è stata elaborata con successo
+   - B) Il server non ha trovato la risorsa richiesta
+   - C) Il server ha ricevuto la richiesta, ma non può processarla
+   - D) Il client non ha i permessi per visualizzare la risorsa richiesta
+
+   **Risposta corretta**: B) Il server non ha trovato la risorsa richiesta
+
+---
+
+9. **In quale fase del ciclo di vita di una richiesta HTTP il server invia i dati richiesti al client?**
+   - A) Durante la risoluzione DNS
+   - B) Durante la gestione della richiesta
+   - C) Durante l'invio della risposta
+   - D) Durante la connessione TCP/IP
+
+   **Risposta corretta**: C) Durante l'invio della risposta
+

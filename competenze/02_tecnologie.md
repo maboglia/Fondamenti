@@ -48,3 +48,85 @@
 
 **Principale differenza**: Il client-side opera sull'interfaccia utente, mentre il server-side si occupa della logica e gestione dei dati.
 
+---
+
+### **Quiz: Protocolli di rete e Tecnologie Web**
+
+1. **Qual è la principale caratteristica di HTTP?**
+   - A) È un protocollo sicuro che utilizza la crittografia
+   - B) È un protocollo che non conserva informazioni tra una richiesta e l'altra
+   - C) Funziona solo con il trasferimento di file
+   - D) È utilizzato per la gestione delle connessioni FTP
+
+   **Risposta corretta**: B) È un protocollo che non conserva informazioni tra una richiesta e l'altra
+
+---
+
+2. **Qual è la differenza principale tra HTTP e HTTPS?**
+   - A) HTTPS non supporta la crittografia dei dati
+   - B) HTTPS utilizza una connessione non sicura per la trasmissione dei dati
+   - C) HTTPS garantisce la sicurezza tramite crittografia (SSL/TLS)
+   - D) HTTP è utilizzato solo per il trasferimento di immagini, mentre HTTPS supporta solo pagine HTML
+
+   **Risposta corretta**: C) HTTPS garantisce la sicurezza tramite crittografia (SSL/TLS)
+
+---
+
+3. **Che cos'è il protocollo FTP?**
+   - A) Un protocollo utilizzato per navigare sul web in modo sicuro
+   - B) Un protocollo per il trasferimento di file tra dispositivi
+   - C) Un protocollo utilizzato per garantire la sicurezza dei dati
+   - D) Un protocollo per la gestione delle connessioni client-server
+
+   **Risposta corretta**: B) Un protocollo per il trasferimento di file tra dispositivi
+
+---
+
+4. **Come funziona una connessione TCP/IP?**
+   - A) TCP si occupa della trasmissione dei dati, mentre IP gestisce l'instradamento
+   - B) TCP si occupa solo dell'instradamento, mentre IP della trasmissione
+   - C) TCP/IP è un protocollo per il trasferimento di immagini
+   - D) TCP/IP non gestisce errori di trasmissione
+
+   **Risposta corretta**: A) TCP si occupa della trasmissione dei dati, mentre IP gestisce l'instradamento
+
+---
+
+5. **Qual è la funzione principale di TCP nella connessione TCP/IP?**
+   - A) Garantire che i pacchetti vengano inviati correttamente e nell'ordine giusto
+   - B) Indirizzare i pacchetti di dati tra dispositivi
+   - C) Gestire la crittografia dei dati
+   - D) Fornire la protezione contro gli attacchi man-in-the-middle
+
+   **Risposta corretta**: A) Garantire che i pacchetti vengano inviati correttamente e nell'ordine giusto
+
+---
+
+6. **Qual è la differenza principale tra tecnologie client-side e server-side?**
+   - A) Il client-side gestisce la logica dei dati, mentre il server-side gestisce l'interfaccia utente
+   - B) Il client-side esegue operazioni sul dispositivo dell'utente, mentre il server-side lavora sul server
+   - C) Il client-side si occupa della gestione del database, mentre il server-side della navigazione web
+   - D) Il client-side non utilizza linguaggi di programmazione, mentre il server-side sì
+
+   **Risposta corretta**: B) Il client-side esegue operazioni sul dispositivo dell'utente, mentre il server-side lavora sul server
+
+---
+
+7. **Quali linguaggi vengono generalmente utilizzati nella programmazione client-side?**
+   - A) PHP, Python, Java
+   - B) HTML, CSS, JavaScript
+   - C) SQL, MongoDB, PostgreSQL
+   - D) Node.js, Java, Ruby
+
+   **Risposta corretta**: B) HTML, CSS, JavaScript
+
+---
+
+8. **Quali linguaggi vengono generalmente utilizzati nella programmazione server-side?**
+   - A) HTML, CSS, JavaScript
+   - B) PHP, Python, Java, Node.js
+   - C) MySQL, MongoDB, PostgreSQL
+   - D) XML, JSON, AJAX
+
+   **Risposta corretta**: B) PHP, Python, Java, Node.js
+
