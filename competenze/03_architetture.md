@@ -80,10 +80,6 @@ Il ciclo di vita di una richiesta HTTP può essere suddiviso nei seguenti passag
 
 ---
 
-Ecco il quiz a risposta multipla basato sugli argomenti che hai fornito:
-
----
-
 ### **Quiz: Architettura e Funzionalità del Server Web**
 
 1. **Qual è la funzione principale di un server web?**

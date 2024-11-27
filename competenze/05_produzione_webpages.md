@@ -107,3 +107,106 @@
    - **Utilità nello sviluppo web**:
      - Permette la scrittura e il testing rapido del codice.
      - Integra strumenti come Prettier per la formattazione automatica e Live Server per visualizzare in tempo reale le modifiche al codice.
+
+---
+
+### **Quiz: Ambienti e Strumenti per la Produzione di Pagine Web**
+
+1. **Qual è l'ambiente di sviluppo utilizzato nell'esempio di progetto per la creazione di una pagina web base?**
+   - A) Sublime Text
+   - B) Visual Studio Code
+   - C) IntelliJ IDEA
+   - D) Notepad++
+
+   **Risposta corretta**: B) Visual Studio Code
+
+---
+
+2. **Quale file contiene la struttura di base di una pagina web, come titoli e paragrafi?**
+   - A) style.css
+   - B) script.js
+   - C) index.html
+   - D) config.json
+
+   **Risposta corretta**: C) index.html
+
+---
+
+3. **Quale comando Git viene utilizzato per inizializzare un repository locale?**
+   - A) git start
+   - B) git init
+   - C) git create
+   - D) git clone
+
+   **Risposta corretta**: B) git init
+
+---
+
+4. **In che file è definito il design e lo stile della pagina web (come i colori e il layout)?**
+   - A) script.js
+   - B) config.json
+   - C) style.css
+   - D) index.html
+
+   **Risposta corretta**: C) style.css
+
+---
+
+5. **Quale strumento viene utilizzato per gestire il controllo versione e collaborare su progetti di codice sorgente?**
+   - A) Visual Studio Code
+   - B) Git e GitHub
+   - C) Postman
+   - D) Sublime Text
+
+   **Risposta corretta**: B) Git e GitHub
+
+---
+
+6. **Qual è la funzione principale di Postman?**
+   - A) Creare una struttura HTML
+   - B) Testare e documentare API web
+   - C) Scrivere codice JavaScript
+   - D) Debuggare codice CSS
+
+   **Risposta corretta**: B) Testare e documentare API web
+
+---
+
+7. **Quale comando Git viene utilizzato per collegare un repository locale a uno remoto su GitHub?**
+   - A) git push
+   - B) git pull
+   - C) git remote add origin
+   - D) git commit
+
+   **Risposta corretta**: C) git remote add origin
+
+---
+
+8. **Quale estensione di Visual Studio Code è utile per vedere in tempo reale le modifiche al codice?**
+   - A) GitLens
+   - B) Live Server
+   - C) Prettier
+   - D) ESLint
+
+   **Risposta corretta**: B) Live Server
+
+---
+
+9. **Quale file contiene il codice JavaScript per aggiungere interattività alla pagina web, come il comportamento di un pulsante?**
+   - A) style.css
+   - B) index.html
+   - C) script.js
+   - D) config.json
+
+   **Risposta corretta**: C) script.js
+
+---
+
+10. **Quale delle seguenti affermazioni descrive correttamente Visual Studio Code?**
+    - A) È un ambiente di sviluppo solo per applicazioni Java
+    - B) È un editor di codice estensibile con supporto per molti linguaggi
+    - C) È un compilatore per il linguaggio C++
+    - D) È un software esclusivo per la scrittura di codice HTML
+
+    **Risposta corretta**: B) È un editor di codice estensibile con supporto per molti linguaggi
+
