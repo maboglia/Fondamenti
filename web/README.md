@@ -73,7 +73,7 @@ Parlare di web e programmazione può coprire una vasta gamma di argomenti: ecco 
 
 ---
 
-### Paradigmi di Sviluppo
+### [Paradigmi di Sviluppo](./paradigmi_sviluppo.md)
 
 16. **MVC (Model-View-Controller):**
     - Approccio comune per organizzare il codice in applicazioni web.
@@ -83,7 +83,7 @@ Parlare di web e programmazione può coprire una vasta gamma di argomenti: ecco 
 
 ---
 
-### Nuove Tecnologie e Tendenze
+### [Nuove Tecnologie e Tendenze](./pwa_serverless.md)
 
 18. **PWA (Progressive Web App):**
     - Applicazioni web che offrono un'esperienza simile a quella di un'applicazione nativa.
