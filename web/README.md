@@ -63,7 +63,7 @@ Parlare di web e programmazione può coprire una vasta gamma di argomenti: ecco 
 
 ---
 
-### Strumenti di Sviluppo
+### [Strumenti di Sviluppo](./strumenti_sviluppo_IDE_md)
 
 14. **IDE (Integrated Development Environment):**
     - Software per lo sviluppo che integra editor, debugger e strumenti di compilazione.
