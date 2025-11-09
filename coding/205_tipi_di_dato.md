@@ -50,4 +50,4 @@ La scelta del tipo di dato dipende dalle esigenze specifiche di un'applicazione.
 
 ---
 
-[Scheda](040_variable_types.md)
+[Scheda](https://github.com/maboglia/Fondamenti/blob/master/coding/040_variable_types.md)

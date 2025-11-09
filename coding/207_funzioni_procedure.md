@@ -73,4 +73,4 @@ Entrambe le funzioni e le procedure sono fondamentali per la creazione di codice
 
 ---
 
-[Scheda](060_functions.md)
+[Scheda](https://github.com/maboglia/Fondamenti/blob/master/coding/060_functions.md)

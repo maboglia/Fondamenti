@@ -93,4 +93,4 @@ Le strutture di controllo sono essenziali per la programmazione strutturata e mo
 
 ---
 
-[Scheda](050_control_flow.md)
+[Scheda](https://github.com/maboglia/Fondamenti/blob/master/coding/050_control_flow.md)
