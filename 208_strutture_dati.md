@@ -125,4 +125,4 @@ Ogni struttura dati ha vantaggi e svantaggi, e la scelta dipende dal contesto sp
 
 ---
 
-[Scheda](https://github.com/maboglia/Fondamenti/blob/master/coding/coding/070_data_structures.md)
+[Scheda](https://github.com/maboglia/Fondamenti/blob/master/coding/070_data_structures.md)
