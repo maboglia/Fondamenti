@@ -90,3 +90,7 @@ Le strutture di controllo sono costrutti fondamentali nei linguaggi di programma
      - Lancia un'eccezione.
 
 Le strutture di controllo sono essenziali per la programmazione strutturata e modulare. Consentono di scrivere codice flessibile e dinamico che risponde alle varie condizioni e requisiti del programma. La corretta gestione di queste strutture è cruciale per garantire la correttezza, la leggibilità e la manutenibilità del codice.
+
+---
+
+[Scheda](050_control_flow.md)

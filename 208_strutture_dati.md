@@ -122,3 +122,7 @@ Le strutture dati sono organizzazioni di dati e operazioni che possono essere es
      ```
 
 Ogni struttura dati ha vantaggi e svantaggi, e la scelta dipende dal contesto specifico e dai requisiti dell'applicazione. La comprensione delle strutture dati è fondamentale per progettare algoritmi efficienti e creare programmi ottimizzati dal punto di vista delle prestazioni.
+
+---
+
+[Scheda approfondimento](coding/208_strutture_dati.md)

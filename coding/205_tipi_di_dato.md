@@ -47,3 +47,7 @@ I tipi di dati in programmazione definiscono il tipo di valore che una variabile
     - Esempio: Tipi di dato personalizzati definiti tramite classi o struct in molti linguaggi.
 
 La scelta del tipo di dato dipende dalle esigenze specifiche di un'applicazione. È importante selezionare il tipo di dato appropriato per garantire l'accuratezza dei calcoli, la gestione efficiente della memoria e la facilità di lettura e manutenzione del codice.
+
+---
+
+[Scheda](040_variable_types.md)

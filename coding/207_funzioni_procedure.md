@@ -70,3 +70,7 @@ Le funzioni e le procedure sono costrutti fondamentali nei linguaggi di programm
 In molti linguaggi di programmazione moderni, la distinzione tra funzioni e procedure potrebbe non essere così rigida, e spesso il termine "funzione" è usato in modo generico per riferirsi sia a funzioni che a procedure. La scelta tra l'utilizzo di funzioni o procedure dipende spesso dalla necessità di restituire o meno un valore.
 
 Entrambe le funzioni e le procedure sono fondamentali per la creazione di codice modulare e riutilizzabile. Consentono di suddividere un programma complesso in parti più gestibili, migliorando la chiarezza del codice e facilitando la manutenzione.
+
+---
+
+[Scheda](060_functions.md)
