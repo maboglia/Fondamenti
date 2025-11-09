@@ -710,3 +710,7 @@ document.addEventListener('keypress', (e) => {
 3. **Introduci JavaScript** - Rendi interattivo
 4. **Pratica con progetti** - Todo list, calcolatrice, form
 5. **Esplora framework** - Quando sei a tuo agio con le basi
+
+---
+
+[Sezione WEB](https://github.com/maboglia/Fondamenti/blob/master/web/README.md)
