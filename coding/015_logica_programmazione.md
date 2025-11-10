@@ -49,10 +49,6 @@ Una buona logica di programmazione consente di:
 
 ---
 
-Ecco una **scheda didattica riassuntiva** sulla **Logica di Programmazione**, adatta per uso didattico (lezioni o verifiche).
-
----
-
 ## 🧠 **Scheda Didattica – La Logica di Programmazione**
 
 ### 📘 **Definizione**
