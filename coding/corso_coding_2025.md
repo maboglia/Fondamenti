@@ -214,7 +214,7 @@ In questo corso impareremo come scrivere istruzioni, capire i dati, controllare 
 
 💬 **Esempio:**
 Come diciamo a un computer “salutami per nome”?
-Con uncome:
+Con una semplice istruzione come:
 
 ```python
 print("Ciao, mondo!")
@@ -638,7 +638,7 @@ Scrivi una funzione ricorsiva che conti da 1 a un numero scelto dall’utente.
 ### ⌨️  **What is Pseudocode?**
 
 🧠 **Spiegazione:**
-Il **pseudocodice** è un modo per scrivere gli algoritmi **in linguaggio naturale**, senza preoccuparsi della sintassi.
+Lo **pseudocodice** è un modo per scrivere gli algoritmi **in linguaggio naturale**, senza preoccuparsi della sintassi.
 Serve per progettare il programma prima di scriverlo davvero.
 
 ---
