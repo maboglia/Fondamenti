@@ -1,46 +1,122 @@
-# fondamenti di programmazione
+# Fondamenti di Programmazione
 
-## Analisi e programmazione
+Questo repository raccoglie materiale didattico, appunti, riferimenti e percorsi di studio dedicati ai fondamenti della programmazione e del pensiero computazionale.
 
-* Tramite un elaboratore si possono risolvere problemi di varia natura
-* Il problema deve essere formulato in modo opportuno, perché sia possibile utilizzare un elaboratore per la sua soluzione
-* L’analisi e programmazione è l’insieme delle attività preliminari atte a risolvere problemi utilizzando un elaboratore
-* Scopo dell’analisi: definire un algoritmo
-* Scopo della programmazione: definire un programma
+## Obiettivo
 
+L'obiettivo del repository è organizzare in modo chiaro e navigabile i contenuti originariamente raccolti in modo sparso nel tempo, trasformandoli in una risorsa didattica strutturata.
 
-## Le fasi del procedimento
+## Struttura del repository
 
-* Input Dati
-	* [Problema](001_ProblemiInformatici.md)
-	* Analisi
-	* [Algoritmo](002_Algoritmi.md)
-	* [Scelta linguaggio](003_ParadigmiLinguaggi.md)
-	* Programma
-	* Elaborazione
-	* Risultati
-* Output Dati
+```text
+Fondamenti/
+├── README.md
+├── docs/
+│   ├── 01_fondamenti/
+│   ├── 02_programmazione/
+│   ├── 03_webdev/
+│   ├── 04_engineering/
+│   ├── 05_agile_management/
+│   └── 06_skills_trasversali/
+├── courses/
+│   ├── fondamenti/
+│   ├── fondamenti_avanzati/
+│   ├── python/
+│   ├── javascript/
+│   ├── java/
+│   ├── php/
+│   └── webdev/
+├── references/
+│   ├── coding_fundamentals/
+│   ├── web_development/
+│   ├── algorithms/
+│   ├── bash_exercises/
+│   └── cheatsheet/
+├── archive/
+│   └── README.md
+├── .gitignore
+└── RESTRUCTURING_PLAN.md
+```
 
-## Linguaggi di  programmazione
+## Percorso consigliato
 
-A cosa servono?
+Per chi inizia, il percorso consigliato è:
 
-![a cosa servono](https://raw.githubusercontent.com/maboglia/Fondamenti/master/img/a_cosa_servono.png)
+1. `docs/01_fondamenti/`
+2. `docs/02_programmazione/`
+3. `docs/03_webdev/`
+4. `courses/fondamenti/`
+5. `references/coding_fundamentals/`
 
+## Sezioni principali
 
-## Ricapitolando
+### Fondamenti
+Raccolta dei concetti teorici di base:
+- algoritmi
+- problemi informatici
+- paradigmi
+- OOP
+- pensiero computazionale
 
-* **Algoritmo**: 
-	* elenco finito di istruzioni, che specificano le operazioni eseguendo le quali si risolve un problema
-	* Un algoritmo non può essere eseguito direttamente dall’elaboratore
-* **Linguaggio di programmazione**: 
-	* linguaggio rigoroso che permette la formalizzazione di un algoritmo in un programma
-* **Programma**: 
-	* *ricetta* che traduce l’algoritmo ed è direttamente comprensibile e quindi eseguibile da parte di un elaboratore
+### Programmazione
+Raccolta dei concetti essenziali della scrittura di codice:
+- variabili e costanti
+- operatori e espressioni
+- tipi di dato
+- funzioni e procedure
+- strutture di controllo
+- strutture dati
+- bash
 
+### Web Development
+Argomenti dedicati al mondo del web:
+- HTML5
+- CSS3
+- JavaScript
+- JSON
+- REST
+- HTTP
+- DOM/BOM
+- architetture web
 
-[problemi informatici](001_ProblemiInformatici.md)
+### Engineering
+Materiale tecnico e di riferimento:
+- regex
+- Git/GitHub
+- principi di coding
+- backend/frontend
+- Linux
+- blockchain
+- LLM
+- Vim
 
-[algoritmi](002_Algoritmi.md)
+### Agile e competenze trasversali
+Argomenti di organizzazione e gestione del lavoro:
+- Agile
+- Scrum
+- pomodoro
+- competenze tecniche e trasversali
+- problem solving
+- soft skills
 
-[Paradigmi e  linguaggi](003_ParadigmiLinguaggi.md)
+## Stato del repository
+
+Questo repository è in fase di ristrutturazione per passare da una collezione di appunti sparsi a una raccolta ben organizzata per argomento e percorso didattico.
+
+I file storici originali sono ancora mantenuti in archivio e in fase di migrazione controllata verso la struttura attuale.
+
+## Link utili
+
+- `docs/01_fondamenti/README.md`
+- `docs/02_programmazione/README.md`
+- `docs/03_webdev/README.md`
+- `docs/04_engineering/README.md`
+- `docs/05_agile_management/README.md`
+- `docs/06_skills_trasversali/README.md`
+- `courses/README.md`
+- `references/README.md`
+- `archive/README.md`
+
+## Nota
+
+Questo repository viene usato come base per un percorso didattico, con materiali organizzati in modo da essere fruibili anche tramite pagine web e risorse pubblicate online.

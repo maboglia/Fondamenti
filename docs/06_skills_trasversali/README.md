@@ -1,15 +1,18 @@
 # Skills Trasversali
 
-Contenuti non strettamente tecnici, ma utili per lo sviluppo personale e professionale.
+Questa sezione raccoglie contenuti non strettamente tecnici ma molto utili per lo sviluppo personale e professionale.
 
-## Contenuti previsti
+## Argomenti principali
 
-- saper fare
-- sostenibilità
 - problem solving
+- saper fare
 - pensiero critico
+- sostenibilità
 - competenze trasversali
+- organizzazione del lavoro
+- qualità del lavoro
+- apprendimento continuo
 
-## Utilizzo
+## Obiettivo
 
-Questa sezione completa il percorso formativo, collegando competenze tecniche e capacità personali.
+Integrando competenze tecniche e competenze trasversali, si costruisce una formazione più completa e più utile in ambito professionale.
