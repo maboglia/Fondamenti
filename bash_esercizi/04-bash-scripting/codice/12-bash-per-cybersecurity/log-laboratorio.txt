@@ -1,0 +1,5 @@
+2026-11-20 09:00:00 INFO Avvio servizio
+2026-11-20 09:01:12 WARNING Tentativo non riuscito
+2026-11-20 09:02:03 ERROR Connessione rifiutata
+2026-11-20 09:04:22 INFO Servizio pronto
+2026-11-20 09:05:41 ERROR Timeout simulato

@@ -1,0 +1,4 @@
+Bash è una shell
+Linux è un sistema operativo
+Impariamo Bash
+Gli script automatizzano attività
